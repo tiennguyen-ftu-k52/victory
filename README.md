@@ -16,13 +16,13 @@
   <a href="https://npmjs.com/package/victory">
     <img alt="current version" src="https://img.shields.io/npm/v/victory.svg">
   </a>
-  <a href="https://github.com/FormidableLabs/victory/actions">
-    <img alt="build status" src="https://github.com/FormidableLabs/victory/actions/workflows/ci.yml/badge.svg">
+  <a href="https://github.com/tiennguyen-ftu-k52/victory/actions">
+    <img alt="build status" src="https://github.com/tiennguyen-ftu-k52/victory/actions/workflows/ci.yml/badge.svg">
   </a>
 
   <img alt="Gzip size" src="http://img.badgesize.io/https://unpkg.com/victory/dist/victory.min.js?compression=gzip&label=gzip%20size">
 
-  <a href="https://github.com/FormidableLabs/victory#maintenance-status">
+  <a href="https://github.com/tiennguyen-ftu-k52/victory#maintenance-status">
     <img alt="Maintenance Status" src="https://img.shields.io/badge/maintenance-active-green.svg" />
   </a>
 
@@ -34,11 +34,13 @@
 
 ## Contents
 
-- [Getting Started](#getting-started)
-- [Victory Native](#victory-native)
-- [API Documentation](http://formidable.com/open-source/victory/docs)
-- [Guides](http://formidable.com/open-source/victory/guides)
-- [Contributing](#contributing)
+- [`Victory`](#victory)
+  - [Contents](#contents)
+  - [Getting started](#getting-started)
+  - [Requirements](#requirements)
+  - [Victory Native](#victory-native)
+  - [Contributing](#contributing)
+  - [Maintenance Status](#maintenance-status)
 
 * See the **docs and examples** on the website: http://formidable.com/open-source/victory.
 * **Experiment** with all Victory components in this [code sandbox](https://codesandbox.io/s/m3xo745x2x)
@@ -59,7 +61,7 @@ $ yarn add victory
 ```js
 import React from "react";
 import { render } from "react-dom";
-import { VictoryPie } from "victory";
+import { VictoryPie } from "victory-custom";
 
 const PieChart = () => {
   return <VictoryPie />;

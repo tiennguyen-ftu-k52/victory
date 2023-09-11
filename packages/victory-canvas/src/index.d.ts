@@ -1,11 +1,11 @@
-import { VictoryBarAlignmentType } from "victory-bar";
+import { VictoryBarAlignmentType } from "victory-bar-custom";
 import {
   VictoryCommonPrimitiveProps,
   NumberOrCallback,
   StringOrCallback,
   ScatterSymbolType,
   PaddingProps,
-} from "victory-core";
+} from "victory-core-custom";
 import * as React from "react";
 
 export interface CanvasBarProps extends VictoryCommonPrimitiveProps {

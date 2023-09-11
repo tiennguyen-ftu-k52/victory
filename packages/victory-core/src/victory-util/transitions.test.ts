@@ -1,5 +1,5 @@
 import React from "react";
-import { Transitions } from "victory-core";
+import { Transitions } from "victory-core-custom";
 
 describe("getInitialTransitionState", () => {
   const makeChild = (data) => {

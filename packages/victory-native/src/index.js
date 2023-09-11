@@ -19,9 +19,9 @@ export {
   LabelHelpers,
   Axis,
   Wrapper,
-} from "victory-core";
+} from "victory-core-custom";
 
-export { VictorySharedEvents } from "victory-shared-events";
+export { VictorySharedEvents } from "victory-shared-events-custom";
 
 export { default as Circle } from "./components/victory-primitives/circle";
 export { default as Line } from "./components/victory-primitives/line";

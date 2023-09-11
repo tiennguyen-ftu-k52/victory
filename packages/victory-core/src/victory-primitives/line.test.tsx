@@ -1,5 +1,5 @@
 import React from "react";
-import { Line } from "victory-core";
+import { Line } from "victory-core-custom";
 import { render } from "@testing-library/react";
 
 describe("victory-primitives/line", () => {

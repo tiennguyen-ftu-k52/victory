@@ -7,7 +7,7 @@ import {
   VictoryCommonProps,
   VictoryStyleInterface,
   VictoryStyleObject,
-} from "victory-core";
+} from "victory-core-custom";
 import {
   withContainer,
   useDomain,
@@ -15,7 +15,7 @@ import {
   useData,
 } from "victory-core/es/v37";
 import { AxesType } from "..";
-import { VictoryAxis, VictoryAxisProps } from "victory-axis";
+import { VictoryAxis, VictoryAxisProps } from "victory-axis-custom";
 
 interface VictoryChartProps extends VictoryCommonProps {
   backgroundComponent?: React.ReactElement;

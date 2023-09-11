@@ -2,12 +2,12 @@
 import PropTypes from "prop-types";
 import React from "react";
 import { defaults, isFunction, pick } from "lodash";
-import { VictoryTooltip } from "victory-tooltip";
+import { VictoryTooltip } from "victory-tooltip-custom";
 import {
   VictoryContainer,
   Helpers,
   PropTypes as CustomPropTypes,
-} from "victory-core";
+} from "victory-core-custom";
 import VoronoiHelpers from "./voronoi-helpers";
 
 export const voronoiContainerMixin = (base) =>

@@ -18,10 +18,10 @@ import {
   VictoryCommonProps,
   VictoryStyleInterface,
   VictoryStyleObject,
-} from "victory-core";
-import { VictorySharedEvents } from "victory-shared-events";
-import { VictoryAxis } from "victory-axis";
-import { VictoryPolarAxis } from "victory-polar-axis";
+} from "victory-core-custom";
+import { VictorySharedEvents } from "victory-shared-events-custom";
+import { VictoryAxis } from "victory-axis-custom";
+import { VictoryPolarAxis } from "victory-polar-axis-custom";
 import {
   getBackgroundWithProps,
   getChildComponents,

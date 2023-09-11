@@ -1,16 +1,16 @@
 /* eslint-disable no-magic-numbers */
 import React from "react";
 import { random, range, round } from "lodash";
-import { VictoryChart } from "victory-chart";
-import { VictoryStack } from "victory-stack";
-import { VictoryGroup } from "victory-group";
-import { VictoryBar } from "victory-bar";
-import { VictoryLine } from "victory-line";
-import { VictoryScatter } from "victory-scatter";
-import { VictoryCursorContainer } from "victory-cursor-container";
-import { VictoryTooltip } from "victory-tooltip";
-import { VictoryLegend } from "victory-legend";
-import { VictoryTheme, CoordinatesPropType } from "victory-core";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryStack } from "victory-stack-custom";
+import { VictoryGroup } from "victory-group-custom";
+import { VictoryBar } from "victory-bar-custom";
+import { VictoryLine } from "victory-line-custom";
+import { VictoryScatter } from "victory-scatter-custom";
+import { VictoryCursorContainer } from "victory-cursor-container-custom";
+import { VictoryTooltip } from "victory-tooltip-custom";
+import { VictoryLegend } from "victory-legend-custom";
+import { VictoryTheme, CoordinatesPropType } from "victory-core-custom";
 
 interface VictoryCursorContainerStateInterface {
   data: { a: number; b: number }[];

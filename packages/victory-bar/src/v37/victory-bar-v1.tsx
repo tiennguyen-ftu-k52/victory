@@ -6,7 +6,7 @@ import {
   VictoryCommonProps,
   VictoryContainer,
   VictoryDatableProps,
-} from "victory-core";
+} from "victory-core-custom";
 import {
   useData,
   useDomain,

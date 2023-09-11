@@ -3,9 +3,9 @@
 
 import { render } from "@testing-library/react";
 import React from "react";
-import { VictoryBar } from "victory-bar";
-import { VictoryHistogram } from "victory-histogram";
-import { VictoryStack } from "victory-stack";
+import { VictoryBar } from "victory-bar-custom";
+import { VictoryHistogram } from "victory-histogram-custom";
+import { VictoryStack } from "victory-stack-custom";
 
 describe("components/victory-stack", () => {
   describe("default component rendering", () => {
@@ -35,14 +35,16 @@ describe("components/victory-stack", () => {
 
     it("accepts user props", () => {
       const { container } = render(
-        <VictoryStack data-testid="victory-stack" aria-label="Stack">
+        <VictoryStack data-testid="victory-stack-custom" aria-label="Stack">
           <VictoryBar />
           <VictoryBar />
         </VictoryStack>,
       );
 
       const svgNode = container.querySelector("svg")!;
-      expect(svgNode.getAttribute("data-testid")).toEqual("victory-stack");
+      expect(svgNode.getAttribute("data-testid")).toEqual(
+        "victory-stack-custom",
+      );
       expect(svgNode.getAttribute("aria-label")).toEqual("Stack");
     });
   });

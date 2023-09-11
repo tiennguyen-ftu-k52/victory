@@ -10,7 +10,7 @@ import {
   VictoryLabelStyleObject,
   VictoryLabelableProps,
   VictoryMultiLabelableProps,
-} from "victory-core";
+} from "victory-core-custom";
 
 export interface VictoryCandlestickStyleInterface {
   close?: VictoryStyleObject;

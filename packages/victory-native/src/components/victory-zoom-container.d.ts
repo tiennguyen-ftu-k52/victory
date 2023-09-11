@@ -2,7 +2,7 @@ import React from "react";
 import {
   VictoryZoomContainer,
   VictoryZoomContainerProps,
-} from "victory-zoom-container";
+} from "victory-zoom-container-custom";
 
 export const zoomContainerMixin: (base: any) => VictoryZoomContainer;
 

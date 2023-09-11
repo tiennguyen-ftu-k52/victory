@@ -6,7 +6,7 @@ import {
   Rect,
   DomainTuple,
   VictoryContainerProps,
-} from "victory-core";
+} from "victory-core-custom";
 import { BrushHelpers } from "./brush-helpers";
 import { assign, defaults } from "lodash";
 import isEqual from "react-fast-compare";

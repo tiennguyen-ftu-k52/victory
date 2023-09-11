@@ -10,7 +10,7 @@ import {
   VictoryStack,
   VictoryBar,
   VictoryAxis,
-} from "victory";
+} from "victory-custom";
 
 const scatterData = times(20, (i) => ({
   x: (i - 10) / 3,

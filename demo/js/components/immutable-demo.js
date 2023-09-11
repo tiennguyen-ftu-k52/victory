@@ -3,27 +3,27 @@ import React from "react";
 import PropTypes from "prop-types";
 import { assign, merge, keys, random, range, round } from "lodash";
 import { fromJS } from "immutable";
-import { VictoryClipContainer, VictoryLabel, VictoryTheme } from "victory-core";
+import { VictoryClipContainer, VictoryLabel, VictoryTheme } from "victory-core-custom";
 
-import { VictoryChart } from "victory-chart";
-import { VictoryStack } from "victory-stack";
-import { VictoryGroup } from "victory-group";
-import { VictoryArea } from "victory-area";
-import { VictoryAxis } from "victory-axis";
-import { VictoryPolarAxis } from "victory-polar-axis";
-import { VictoryBar } from "victory-bar";
-import { VictoryLine } from "victory-line";
-import { VictoryScatter } from "victory-scatter";
-import { VictoryErrorBar } from "victory-errorbar";
-import { VictoryCandlestick } from "victory-candlestick";
-import { VictoryVoronoi } from "victory-voronoi";
-import { VictoryZoomContainer } from "victory-zoom-container";
-import { VictoryVoronoiContainer } from "victory-voronoi-container";
-import { VictorySelectionContainer } from "victory-selection-container";
-import { VictoryCursorContainer } from "victory-cursor-container";
-import { VictoryBrushContainer } from "victory-brush-container";
-import { VictoryTooltip } from "victory-tooltip";
-import { VictoryLegend } from "victory-legend";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryStack } from "victory-stack-custom";
+import { VictoryGroup } from "victory-group-custom";
+import { VictoryArea } from "victory-area-custom";
+import { VictoryAxis } from "victory-axis-custom";
+import { VictoryPolarAxis } from "victory-polar-axis-custom";
+import { VictoryBar } from "victory-bar-custom";
+import { VictoryLine } from "victory-line-custom";
+import { VictoryScatter } from "victory-scatter-custom";
+import { VictoryErrorBar } from "victory-errorbar-custom";
+import { VictoryCandlestick } from "victory-candlestick-custom";
+import { VictoryVoronoi } from "victory-voronoi-custom";
+import { VictoryZoomContainer } from "victory-zoom-container-custom";
+import { VictoryVoronoiContainer } from "victory-voronoi-container-custom";
+import { VictorySelectionContainer } from "victory-selection-container-custom";
+import { VictoryCursorContainer } from "victory-cursor-container-custom";
+import { VictoryBrushContainer } from "victory-brush-container-custom";
+import { VictoryTooltip } from "victory-tooltip-custom";
+import { VictoryLegend } from "victory-legend-custom";
 
 class Wrapper extends React.Component {
   static propTypes = {

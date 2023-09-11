@@ -1,5 +1,5 @@
 import * as React from "react";
-import { PaddingProps, VictoryContainerProps } from "victory-core";
+import { PaddingProps, VictoryContainerProps } from "victory-core-custom";
 
 export interface VictoryVoronoiContainerProps extends VictoryContainerProps {
   activateData?: boolean;

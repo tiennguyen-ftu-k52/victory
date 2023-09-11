@@ -1,4 +1,4 @@
-import { Selection, SVGCoordinateType } from "victory-core";
+import { Selection, SVGCoordinateType } from "victory-core-custom";
 import { throttle, isFunction, mapValues } from "lodash";
 
 const ON_MOUSE_MOVE_THROTTLE_MS = 16;

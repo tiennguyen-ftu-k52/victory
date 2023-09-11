@@ -8,7 +8,7 @@ import {
   UserProps,
   VictoryCommonPrimitiveProps,
   EventsMixinClass,
-} from "victory-core";
+} from "victory-core-custom";
 import { assign } from "lodash";
 
 const renderBorder = (props, error, type) => {

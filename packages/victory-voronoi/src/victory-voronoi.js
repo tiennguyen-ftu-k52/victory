@@ -11,7 +11,7 @@ import {
   Domain,
   CommonProps,
   UserProps,
-} from "victory-core";
+} from "victory-core-custom";
 import Voronoi from "./voronoi";
 import { getBaseProps } from "./helper-methods";
 

@@ -5,7 +5,7 @@ import {
   VictoryVoronoiContainer,
   VoronoiHelpers,
   voronoiContainerMixin as originalVoronoiMixin,
-} from "victory-voronoi-container";
+} from "victory-voronoi-container-custom";
 import VictoryContainer from "./victory-container";
 import VictoryTooltip from "./victory-tooltip";
 

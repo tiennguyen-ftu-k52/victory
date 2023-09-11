@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "@testing-library/react";
 import * as d3Scale from "victory-vendor/d3-scale";
-import { VictoryContainer } from "victory-core";
-import { Bar } from "victory-bar";
+import { VictoryContainer } from "victory-core-custom";
+import { Bar } from "victory-bar-custom";
 import { getBarShape } from "../../../test/helpers";
 
 describe("victory-primitives/bar", () => {

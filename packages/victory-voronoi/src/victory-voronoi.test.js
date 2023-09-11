@@ -1,18 +1,21 @@
 import React from "react";
 import { random, range } from "lodash";
 import { calculateD3Path } from "../../../test/helpers";
-import { VictoryVoronoi, Voronoi } from "victory-voronoi";
+import { VictoryVoronoi, Voronoi } from "victory-voronoi-custom";
 import { fireEvent, render, screen } from "@testing-library/react";
 
 describe("components/victory-voronoi", () => {
   describe("default component rendering", () => {
     it("accepts user props", () => {
       const { container } = render(
-        <VictoryVoronoi data-testid="victory-voronoi" aria-label="Chart" />,
+        <VictoryVoronoi
+          data-testid="victory-voronoi-custom"
+          aria-label="Chart"
+        />,
       );
 
       const svgNode = container.querySelector("svg");
-      expect(svgNode).toHaveAttribute("data-testid", "victory-voronoi");
+      expect(svgNode).toHaveAttribute("data-testid", "victory-voronoi-custom");
       expect(svgNode).toHaveAttribute("aria-label", "Chart");
     });
 

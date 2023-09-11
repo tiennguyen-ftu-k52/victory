@@ -1,8 +1,8 @@
 import React from "react";
-import { Area } from "victory-area";
+import { Area } from "victory-area-custom";
 import { merge } from "lodash";
 import { render } from "@testing-library/react";
-import { VictoryContainer } from "victory-core";
+import { VictoryContainer } from "victory-core-custom";
 import * as d3Scale from "victory-vendor/d3-scale";
 
 describe("victory-primitives/area", () => {

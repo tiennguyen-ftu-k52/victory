@@ -1,17 +1,17 @@
 /* eslint-disable no-magic-numbers,react/no-multi-comp */
 import React from "react";
 import PropTypes from "prop-types";
-import { VictoryChart } from "victory-chart";
-import { VictoryStack } from "victory-stack";
-import { VictoryGroup } from "victory-group";
-import { VictoryBar } from "victory-bar";
-import { VictorySharedEvents } from "victory-shared-events";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryStack } from "victory-stack-custom";
+import { VictoryGroup } from "victory-group-custom";
+import { VictoryBar } from "victory-bar-custom";
+import { VictorySharedEvents } from "victory-shared-events-custom";
 
 import {
   VictoryContainer,
   VictoryTheme,
   VictoryLabel,
-} from "victory-core";
+} from "victory-core-custom";
 import { assign, random, range, merge } from "lodash";
 
 class Wrapper extends React.Component {

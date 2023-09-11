@@ -8,7 +8,7 @@ import {
   VictoryDatableProps,
   VictoryMultiLabelableProps,
   VictoryStyleInterface,
-} from "victory-core";
+} from "victory-core-custom";
 
 export type VictoryBarTTargetType = "data" | "labels" | "parent";
 export type VictoryBarAlignmentType = "start" | "middle" | "end";

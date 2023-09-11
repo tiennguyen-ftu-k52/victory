@@ -1,11 +1,11 @@
 /* eslint-disable no-magic-numbers*/
 /* eslint-disable react/no-multi-comp*/
 import React from "react";
-import { VictoryAxis } from "victory-axis";
-import { VictoryBar } from "victory-bar";
-import { VictoryScatter } from "victory-scatter";
-import { VictoryTheme } from "victory-core";
-import { VictoryChart } from "victory-chart";
+import { VictoryAxis } from "victory-axis-custom";
+import { VictoryBar } from "victory-bar-custom";
+import { VictoryScatter } from "victory-scatter-custom";
+import { VictoryTheme } from "victory-core-custom";
+import { VictoryChart } from "victory-chart-custom";
 import { range } from "lodash";
 import seedrandom from "seedrandom";
 

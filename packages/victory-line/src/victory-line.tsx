@@ -24,7 +24,7 @@ import {
   VictoryLabelableProps,
   VictoryStyleInterface,
   EventsMixinClass,
-} from "victory-core";
+} from "victory-core-custom";
 
 const fallbackProps = {
   width: 450,

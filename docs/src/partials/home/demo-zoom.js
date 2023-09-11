@@ -6,7 +6,7 @@ import {
   VictoryBrushContainer,
   VictoryZoomContainer,
   VictoryAxis,
-} from "victory";
+} from "victory-custom";
 
 import importedTheme from "../../styles/theme";
 

@@ -17,7 +17,7 @@ import {
   VictoryAxisCommonProps,
   VictoryCommonProps,
   VictorySingleLabelableProps,
-} from "victory-core";
+} from "victory-core-custom";
 
 export type VictoryPolarAxisTTargetType =
   | "axis"

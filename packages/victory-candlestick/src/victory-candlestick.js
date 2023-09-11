@@ -10,7 +10,7 @@ import {
   DefaultTransitions,
   CommonProps,
   UserProps,
-} from "victory-core";
+} from "victory-core-custom";
 import { isNil, flatten } from "lodash";
 import Candle from "./candle";
 import { getDomain, getData, getBaseProps } from "./helper-methods";

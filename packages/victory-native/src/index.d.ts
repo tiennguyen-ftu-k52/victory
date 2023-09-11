@@ -37,25 +37,25 @@ export {
   TextSize,
   // Transitions,
   Selection, // LabelHelpers, // Axis, // Wrapper
-} from "victory-core";
+} from "victory-core-custom";
 
-export { VictoryChart } from "victory-chart";
-export { VictoryGroup } from "victory-group";
-export { VictoryStack } from "victory-stack";
-export { VictoryPie, Slice } from "victory-pie";
-export { VictoryArea, Area } from "victory-area";
-export { VictoryBar, Bar } from "victory-bar";
-export { VictoryCandlestick, Candle } from "victory-candlestick";
-export { VictoryErrorBar, ErrorBar } from "victory-errorbar";
-export { VictoryLine, Curve } from "victory-line";
-export { VictoryHistogram } from "victory-histogram";
-export { VictoryScatter } from "victory-scatter";
-export { VictoryBoxPlot } from "victory-box-plot";
-export { Voronoi, VictoryVoronoi } from "victory-voronoi";
-export { VictoryTooltip, Flyout } from "victory-tooltip";
-export { VictoryLegend } from "victory-legend";
-export { VictoryAxis } from "victory-axis";
-export { VictoryPolarAxis } from "victory-polar-axis";
+export { VictoryChart } from "victory-chart-custom";
+export { VictoryGroup } from "victory-group-custom";
+export { VictoryStack } from "victory-stack-custom";
+export { VictoryPie, Slice } from "victory-pie-custom";
+export { VictoryArea, Area } from "victory-area-custom";
+export { VictoryBar, Bar } from "victory-bar-custom";
+export { VictoryCandlestick, Candle } from "victory-candlestick-custom";
+export { VictoryErrorBar, ErrorBar } from "victory-errorbar-custom";
+export { VictoryLine, Curve } from "victory-line-custom";
+export { VictoryHistogram } from "victory-histogram-custom";
+export { VictoryScatter } from "victory-scatter-custom";
+export { VictoryBoxPlot } from "victory-box-plot-custom";
+export { Voronoi, VictoryVoronoi } from "victory-voronoi-custom";
+export { VictoryTooltip, Flyout } from "victory-tooltip-custom";
+export { VictoryLegend } from "victory-legend-custom";
+export { VictoryAxis } from "victory-axis-custom";
+export { VictoryPolarAxis } from "victory-polar-axis-custom";
 export { default as VictoryBrushLine } from "./components/victory-brush-line";
 
 export { default as VictoryContainer } from "./components/victory-container";
@@ -80,4 +80,4 @@ export {
   brushContainerMixin,
   default as VictoryBrushContainer,
 } from "./components/victory-brush-container";
-export { createContainer } from "victory-create-container";
+export { createContainer } from "victory-create-container-custom";

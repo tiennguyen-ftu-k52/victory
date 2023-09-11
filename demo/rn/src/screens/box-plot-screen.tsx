@@ -1,6 +1,6 @@
 import * as React from "react";
 import { ScrollView } from "react-native";
-import { VictoryChart, VictoryBoxPlot } from "victory-native";
+import { VictoryChart, VictoryBoxPlot } from "victory-native-custom";
 import viewStyles from "../styles/view-styles";
 import { getBoxPlotData } from "../data";
 

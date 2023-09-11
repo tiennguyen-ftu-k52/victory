@@ -6,7 +6,7 @@ import {
   VictoryChart,
   VictoryPolarAxis,
   VictoryTheme,
-} from "victory-native";
+} from "victory-native-custom";
 
 export const PolarAxisScreen: React.FC = () => {
   return (

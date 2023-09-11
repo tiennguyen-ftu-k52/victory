@@ -8,7 +8,7 @@ import {
   isNaN,
   isNil,
 } from "lodash";
-import { Helpers, Scale, Domain, Data, Collection } from "victory-core";
+import { Helpers, Scale, Domain, Data, Collection } from "victory-core-custom";
 import {
   min as d3Min,
   max as d3Max,

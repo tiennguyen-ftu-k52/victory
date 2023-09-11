@@ -6,7 +6,7 @@ import {
   VictorySelectionContainer,
   SelectionHelpers,
   selectionContainerMixin as originalSelectionMixin,
-} from "victory-selection-container";
+} from "victory-selection-container-custom";
 import VictoryContainer from "./victory-container";
 import NativeHelpers from "../helpers/native-helpers";
 

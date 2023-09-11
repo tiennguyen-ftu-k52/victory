@@ -1,4 +1,4 @@
-import { makeCreateContainerFunction } from "victory-create-container";
+import { makeCreateContainerFunction } from "victory-create-container-custom";
 import VictoryContainer from "../components/victory-container";
 import { zoomContainerMixin } from "../components/victory-zoom-container";
 import { voronoiContainerMixin } from "../components/victory-voronoi-container";

@@ -10,7 +10,7 @@ import {
   VictoryTheme,
   Point,
   Border,
-} from "victory-core";
+} from "victory-core-custom";
 
 const fallbackProps = {
   orientation: "vertical",

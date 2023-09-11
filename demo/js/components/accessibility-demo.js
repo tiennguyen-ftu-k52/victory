@@ -1,17 +1,17 @@
 /* eslint-disable no-magic-numbers */
 import React from "react";
-import { VictoryGroup } from "victory-group";
-import { VictoryStack } from "victory-stack";
-import { VictoryChart } from "victory-chart";
-import { VictoryScatter } from "victory-scatter";
-import { VictoryBoxPlot } from "victory-box-plot";
-import { VictoryBar, Bar } from "victory-bar";
-import { VictoryPie, Slice } from "victory-pie";
-import { VictoryArea, Area } from "victory-area";
-import { VictoryLine, Curve } from "victory-line";
-import { VictoryVoronoi, Voronoi } from "victory-voronoi";
-import { ErrorBar, VictoryErrorBar } from "victory-errorbar";
-import { Candle, VictoryCandlestick } from "victory-candlestick";
+import { VictoryGroup } from "victory-group-custom";
+import { VictoryStack } from "victory-stack-custom";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryScatter } from "victory-scatter-custom";
+import { VictoryBoxPlot } from "victory-box-plot-custom";
+import { VictoryBar, Bar } from "victory-bar-custom";
+import { VictoryPie, Slice } from "victory-pie-custom";
+import { VictoryArea, Area } from "victory-area-custom";
+import { VictoryLine, Curve } from "victory-line-custom";
+import { VictoryVoronoi, Voronoi } from "victory-voronoi-custom";
+import { ErrorBar, VictoryErrorBar } from "victory-errorbar-custom";
+import { Candle, VictoryCandlestick } from "victory-candlestick-custom";
 import {
   LineSegment,
   Whisker,
@@ -19,7 +19,7 @@ import {
   Point,
   VictoryLabel,
   VictoryAccessibleGroup,
-} from "victory-core";
+} from "victory-core-custom";
 import {
   accessibilityBarData,
   accessibilityBoxData,

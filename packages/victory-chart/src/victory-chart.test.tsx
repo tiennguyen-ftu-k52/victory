@@ -1,7 +1,7 @@
 import React from "react";
-import { VictoryChart } from "victory-chart";
-import { VictoryAxis } from "victory-axis";
-import { VictoryLine } from "victory-line";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryAxis } from "victory-axis-custom";
+import { VictoryLine } from "victory-line-custom";
 import { render, screen, fireEvent } from "@testing-library/react";
 
 describe("components/victory-chart", () => {
@@ -72,9 +72,11 @@ describe("components/victory-chart", () => {
     });
 
     it("accepts user props", () => {
-      render(<VictoryChart data-testid="victory-chart" aria-label="Chart" />);
+      render(
+        <VictoryChart data-testid="victory-chart-custom" aria-label="Chart" />,
+      );
 
-      expect(screen.getByTestId("victory-chart")).toBeDefined();
+      expect(screen.getByTestId("victory-chart-custom")).toBeDefined();
       expect(screen.getByLabelText("Chart")).toBeDefined();
     });
   });

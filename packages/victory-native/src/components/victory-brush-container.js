@@ -6,7 +6,7 @@ import {
   VictoryBrushContainer,
   BrushHelpers,
   brushContainerMixin as originalBrushMixin,
-} from "victory-brush-container";
+} from "victory-brush-container-custom";
 import VictoryContainer from "./victory-container";
 import NativeHelpers from "../helpers/native-helpers";
 

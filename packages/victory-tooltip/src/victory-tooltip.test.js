@@ -1,6 +1,6 @@
 import React from "react";
-import { Flyout, VictoryTooltip } from "victory-tooltip";
-import { VictoryContainer, VictoryLabel } from "victory-core";
+import { Flyout, VictoryTooltip } from "victory-tooltip-custom";
+import { VictoryContainer, VictoryLabel } from "victory-core-custom";
 import { fireEvent, screen, render } from "@testing-library/react";
 
 describe("components/victory-tooltip", () => {

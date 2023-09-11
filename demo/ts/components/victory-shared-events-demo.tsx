@@ -1,6 +1,6 @@
 import React from "react";
-import { VictoryBar } from "victory-bar";
-import { VictorySharedEvents } from "victory-shared-events";
+import { VictoryBar } from "victory-bar-custom";
+import { VictorySharedEvents } from "victory-shared-events-custom";
 import { merge } from "lodash";
 
 export default class VictorySharedEventsDemo extends React.Component<any, {}> {

@@ -1,8 +1,8 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { range } from "lodash";
 import React from "react";
-import { Candle, VictoryCandlestick } from "victory-candlestick";
-import { VictoryChart } from "victory-chart";
+import { Candle, VictoryCandlestick } from "victory-candlestick-custom";
+import { VictoryChart } from "victory-chart-custom";
 
 const MyCandle = () => <div data-testid="my-candle" />;
 
@@ -16,13 +16,13 @@ describe("components/victory-candlestick", () => {
     it("attaches safe user props to the container component", () => {
       render(
         <VictoryCandlestick
-          data-testid="victory-candlestick"
+          data-testid="victory-candlestick-custom"
           aria-label="Chart"
           unsafe-prop="test"
         />,
       );
 
-      const container = screen.getByTestId("victory-candlestick");
+      const container = screen.getByTestId("victory-candlestick-custom");
       expect(screen.getByLabelText("Chart")).toBeDefined();
       expect(container).not.toHaveAttribute("unsafe-prop");
       expect(container.nodeName).toEqual("svg");
@@ -31,14 +31,14 @@ describe("components/victory-candlestick", () => {
     it("attaches safe user props to the group component if the component is rendered inside a VictoryChart", () => {
       render(
         <VictoryCandlestick
-          data-testid="victory-candlestick"
+          data-testid="victory-candlestick-custom"
           aria-label="Chart"
           unsafe-prop="test"
         />,
         { wrapper: VictoryChart },
       );
 
-      const container = screen.getByTestId("victory-candlestick");
+      const container = screen.getByTestId("victory-candlestick-custom");
       expect(screen.getByLabelText("Chart")).toBeDefined();
       expect(container).not.toHaveAttribute("unsafe-prop");
       expect(container.nodeName).toEqual("g");

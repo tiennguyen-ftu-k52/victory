@@ -524,4 +524,4 @@ y={(d) => d.value + d.error}
 [custom components guide]: /guides/custom-components
 [events guide]: /guides/events
 [themes guide]: /guides/themes
-[grayscale theme]: https://github.com/FormidableLabs/victory/blob/main/packages/victory-core/src/victory-theme/grayscale.js
+[grayscale theme]: https://github.com/tiennguyen-ftu-k52/victory/blob/main/packages/victory-core/src/victory-theme/grayscale.js

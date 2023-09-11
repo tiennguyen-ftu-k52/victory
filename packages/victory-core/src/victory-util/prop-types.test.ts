@@ -2,7 +2,7 @@
 /* eslint no-unused-expressions: 0 */
 import React from "react";
 import PropTypes from "prop-types";
-import { PropTypes as CustomPropTypes } from "victory-core";
+import { PropTypes as CustomPropTypes } from "victory-core-custom";
 
 describe("victory-util/prop-types", () => {
   const rest = ["location", "propFullName"] as const;

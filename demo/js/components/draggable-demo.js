@@ -1,14 +1,14 @@
 /* eslint-disable no-magic-numbers,react/no-multi-comp */
 
 import React from "react";
-import { VictoryChart } from "victory-chart";
-import { VictoryAxis } from "victory-axis";
-import { VictoryBar } from "victory-bar";
-import { VictoryBrushLine } from "victory-brush-line";
-import { VictoryScatter } from "victory-scatter";
-import { VictoryClipContainer, Point, Selection } from "victory-core";
-import { VictoryZoomContainer } from "victory-zoom-container";
-import { VictoryBrushContainer } from "victory-brush-container";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryAxis } from "victory-axis-custom";
+import { VictoryBar } from "victory-bar-custom";
+import { VictoryBrushLine } from "victory-brush-line-custom";
+import { VictoryScatter } from "victory-scatter-custom";
+import { VictoryClipContainer, Point, Selection } from "victory-core-custom";
+import { VictoryZoomContainer } from "victory-zoom-container-custom";
+import { VictoryBrushContainer } from "victory-brush-container-custom";
 
 const bars = [
   { name: "SEA", range: [new Date(2013, 1, 1), new Date(2019, 1, 1)] },

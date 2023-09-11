@@ -1,5 +1,5 @@
 import { assign, uniqBy, defaults } from "lodash";
-import { Helpers, LabelHelpers, Scale, Axis } from "victory-core";
+import { Helpers, LabelHelpers, Scale, Axis } from "victory-core-custom";
 
 const getPosition = (r, angle, axis) => {
   return axis === "x" ? r * Math.cos(angle) : -r * Math.sin(angle);

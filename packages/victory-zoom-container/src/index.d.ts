@@ -1,5 +1,5 @@
 import * as React from "react";
-import { DomainTuple, VictoryContainerProps } from "victory-core";
+import { DomainTuple, VictoryContainerProps } from "victory-core-custom";
 
 export type ZoomDimensionType = "x" | "y";
 

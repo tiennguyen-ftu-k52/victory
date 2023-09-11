@@ -12,7 +12,7 @@ import {
   VictoryScatter,
   VictoryVoronoiContainer,
   Point,
-} from "victory";
+} from "victory-custom";
 import styled from "styled-components";
 import importedTheme from "../../styles/theme";
 import downloads from "../../data/downloads";
@@ -82,7 +82,7 @@ const LinkLabel = (props) => {
   return (
     <foreignObject x={x - 25} y={5} width={50} height={50}>
       <a
-        href={`https://github.com/FormidableLabs/victory/blob/main/CHANGELOG.md#${hash}`}
+        href={`https://github.com/tiennguyen-ftu-k52/victory/blob/main/CHANGELOG.md#${hash}`}
         target="_blank"
         rel="noopener noreferrer"
         style={linkStyle}

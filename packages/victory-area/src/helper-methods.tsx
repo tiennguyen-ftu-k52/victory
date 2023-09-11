@@ -6,7 +6,7 @@ import {
   Domain,
   Scale,
   Collection,
-} from "victory-core";
+} from "victory-core-custom";
 
 export const getDataWithBaseline = (props, scale) => {
   let data = Data.getData(props);

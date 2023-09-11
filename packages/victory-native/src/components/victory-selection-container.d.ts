@@ -2,7 +2,7 @@ import React from "react";
 import {
   VictorySelectionContainer,
   VictorySelectionContainerProps,
-} from "victory-selection-container";
+} from "victory-selection-container-custom";
 
 export const selectionContainerMixin: (base: any) => VictorySelectionContainer;
 

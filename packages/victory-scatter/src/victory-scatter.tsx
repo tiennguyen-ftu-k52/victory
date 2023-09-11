@@ -21,7 +21,7 @@ import {
   VictoryDatableProps,
   VictoryMultiLabelableProps,
   VictoryStyleInterface,
-} from "victory-core";
+} from "victory-core-custom";
 import { getBaseProps } from "./helper-methods";
 
 const fallbackProps = {

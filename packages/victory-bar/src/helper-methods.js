@@ -6,7 +6,7 @@ import {
   Helpers,
   LabelHelpers,
   Scale,
-} from "victory-core";
+} from "victory-core-custom";
 
 export const getBarPosition = (props, datum) => {
   const getDefaultMin = (axis) => {

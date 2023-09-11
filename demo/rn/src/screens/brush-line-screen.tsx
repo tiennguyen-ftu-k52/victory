@@ -9,12 +9,12 @@ import {
   VictoryLabel,
   VictoryBar,
   VictoryContainer,
-} from "victory-native";
-import { DomainTuple } from "victory-core";
+} from "victory-native-custom";
+import { DomainTuple } from "victory-core-custom";
 import _ from "lodash";
 
 import viewStyles from "../styles/view-styles";
-import { VictoryBrushLineProps } from "victory-brush-line";
+import { VictoryBrushLineProps } from "victory-brush-line-custom";
 
 type DataType = {
   name: string;

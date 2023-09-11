@@ -7,7 +7,7 @@ import {
   VictoryClipContainer,
   Data,
   PropTypes as CustomPropTypes,
-} from "victory-core";
+} from "victory-core-custom";
 
 const DEFAULT_DOWNSAMPLE = 150;
 

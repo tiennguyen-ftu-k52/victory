@@ -1075,7 +1075,7 @@ See the [Data Accessors Guide][] for more detail on formatting and processing da
 
 [x]: #x
 [y]: #y
-[grayscale theme]: https://github.com/FormidableLabs/victory/blob/main/packages/victory-core/src/victory-theme/grayscale.js
+[grayscale theme]: https://github.com/tiennguyen-ftu-k52/victory/blob/main/packages/victory-core/src/victory-theme/grayscale.js
 [width]: #width
 [height]: #height
 [victorylabel]: /docs/victory-label

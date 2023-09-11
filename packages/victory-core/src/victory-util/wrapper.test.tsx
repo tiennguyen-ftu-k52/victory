@@ -1,7 +1,7 @@
 import React from "react";
-import { VictoryAxis } from "victory-axis";
-import { Wrapper } from "victory-core";
-import { VictoryLine } from "victory-line";
+import { VictoryAxis } from "victory-axis-custom";
+import { Wrapper } from "victory-core-custom";
+import { VictoryLine } from "victory-line-custom";
 
 describe("helpers/wrapper", () => {
   describe("getDomain", () => {

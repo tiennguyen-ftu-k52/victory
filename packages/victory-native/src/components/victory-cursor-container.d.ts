@@ -2,7 +2,7 @@ import React from "react";
 import {
   VictoryCursorContainer,
   VictoryCursorContainerProps,
-} from "victory-cursor-container";
+} from "victory-cursor-container-custom";
 
 export const cursorContainerMixin: (base: any) => VictoryCursorContainer;
 

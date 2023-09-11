@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { assign } from "lodash";
-import { Helpers, CommonProps, PointPathHelpers } from "victory-core";
+import { Helpers, CommonProps, PointPathHelpers } from "victory-core-custom";
 import { useCanvasContext } from "./hooks/use-canvas-context";
 
 const getPath = (props) => {

@@ -240,7 +240,7 @@ const Hero = ({
       <LandingSectionContent>
         <CenterWrapper>
           <HeroBadge>
-            <FeaturedBadge name="victory" />
+            <FeaturedBadge name="victory-custom" />
           </HeroBadge>
           <SectionHeading>VICTORY</SectionHeading>
           <SectionSubHeading>{description}</SectionSubHeading>

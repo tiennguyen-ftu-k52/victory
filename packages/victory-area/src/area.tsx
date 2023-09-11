@@ -11,7 +11,7 @@ import {
   VictoryCommonPrimitiveProps,
   LineHelpers,
   VictoryCommonThemeProps,
-} from "victory-core";
+} from "victory-core-custom";
 
 const defined = (d) => {
   const y = d._y1 !== undefined ? d._y1 : d._y;

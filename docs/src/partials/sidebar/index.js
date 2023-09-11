@@ -201,7 +201,7 @@ const Sidebar = ({ className, content, onCloseClick }) => {
     <SidebarContainer className={className}>
       <CloseButton onClick={onCloseClick}>&times;</CloseButton>
       <VictoryLogo to={createPath("/")}>
-        <FeaturedBadge name="victory" isHoverable />
+        <FeaturedBadge name="victory-custom" isHoverable />
       </VictoryLogo>
       <SearchInput
         onHandleInputChange={handleInputChange}

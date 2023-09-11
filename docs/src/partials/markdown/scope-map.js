@@ -1,7 +1,7 @@
 /*eslint-disable no-magic-numbers */
 import _ from "lodash";
 // NOTE(2220): Keep on old CommonJS-supported D3 versions
-// https://github.com/FormidableLabs/victory/issues/2220
+// https://github.com/tiennguyen-ftu-k52/victory/issues/2220
 import * as d3Array from "d3-array";
 import * as d3Scale from "d3-scale";
 import * as d3Time from "d3-time";

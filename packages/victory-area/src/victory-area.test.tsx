@@ -1,8 +1,8 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { range } from "lodash";
 import React from "react";
-import { Area, VictoryArea, VictoryAreaProps } from "victory-area";
-import { VictoryChart } from "victory-chart";
+import { Area, VictoryArea, VictoryAreaProps } from "victory-area-custom";
+import { VictoryChart } from "victory-chart-custom";
 import { curveCatmullRom } from "victory-vendor/d3-shape";
 import { calculateD3Path } from "../../../test/helpers/svg";
 
@@ -11,13 +11,13 @@ describe("components/victory-area", () => {
     it("attaches safe user props to the container component", () => {
       render(
         <VictoryArea
-          data-testid="victory-area"
+          data-testid="victory-area-custom"
           aria-label="Chart"
           unsafe-prop="test"
         />,
       );
 
-      const container = screen.getByTestId("victory-area");
+      const container = screen.getByTestId("victory-area-custom");
       expect(screen.getByLabelText("Chart")).toBeDefined();
       expect(container).not.toHaveAttribute("unsafe-prop");
       expect(container.nodeName).toEqual("svg");
@@ -26,14 +26,14 @@ describe("components/victory-area", () => {
     it("attaches safe user props to the group component if the component is rendered inside a VictoryChart", () => {
       render(
         <VictoryArea
-          data-testid="victory-area"
+          data-testid="victory-area-custom"
           aria-label="Chart"
           unsafe-prop="test"
         />,
         { wrapper: VictoryChart as any },
       );
 
-      const container = screen.getByTestId("victory-area");
+      const container = screen.getByTestId("victory-area-custom");
       expect(screen.getByLabelText("Chart")).toBeDefined();
       expect(container).not.toHaveAttribute("unsafe-prop");
       expect(container.nodeName).toEqual("g");

@@ -4,9 +4,9 @@ import styled from "styled-components";
 import ReactDOM from "react-dom";
 import { withRouteData } from "react-static";
 import { Link } from "react-router-dom";
-import * as Victory from "victory";
+import * as Victory from "victory-custom";
 // NOTE(2220): Keep on old CommonJS-supported D3 versions
-// https://github.com/FormidableLabs/victory/issues/2220
+// https://github.com/tiennguyen-ftu-k52/victory/issues/2220
 import * as d3Scale from "d3-scale";
 import {
   scaleDiscontinuous,

@@ -5,7 +5,7 @@ import VictoryClipContainer from "./victory-clip-container";
 import {
   VictoryZoomContainer,
   zoomContainerMixin as originalZoomMixin,
-} from "victory-zoom-container";
+} from "victory-zoom-container-custom";
 import NativeZoomHelpers from "../helpers/native-zoom-helpers";
 
 const nativeZoomMixin = (base) =>

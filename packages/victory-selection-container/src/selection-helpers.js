@@ -1,4 +1,4 @@
-import { Selection, Data, Helpers } from "victory-core";
+import { Selection, Data, Helpers } from "victory-core-custom";
 import { assign, defaults, throttle, isFunction, includes } from "lodash";
 import React from "react";
 

@@ -19,7 +19,7 @@ import {
   VictoryCommonProps,
   VictorySingleLabelableProps,
   EventsMixinClass,
-} from "victory-core";
+} from "victory-core-custom";
 import { getBaseProps, getStyles } from "./helper-methods";
 
 const fallbackProps = {

@@ -1,11 +1,11 @@
 /* eslint-disable no-magic-numbers */
 import React from "react";
 import { random, range } from "lodash";
-import { VictoryBar } from "victory-bar";
-import { VictoryChart } from "victory-chart";
-import { VictoryStack } from "victory-stack";
-import { VictoryArea } from "victory-area";
-import { VictoryTheme } from "victory-core";
+import { VictoryBar } from "victory-bar-custom";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryStack } from "victory-stack-custom";
+import { VictoryArea } from "victory-area-custom";
+import { VictoryTheme } from "victory-core-custom";
 
 export default class App extends React.Component {
   constructor() {

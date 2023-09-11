@@ -82,7 +82,7 @@ const About = ({ sidebarContent }) => {
         <a href="https://github.com/boygirl"> Lauren Eastridge</a>.
       </p>
       <p>
-        <a href="https://github.com/FormidableLabs/victory/graphs/contributors">
+        <a href="https://github.com/tiennguyen-ftu-k52/victory/graphs/contributors">
           See Victory Contributors
         </a>
       </p>
