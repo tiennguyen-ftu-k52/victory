@@ -10,7 +10,7 @@ import {
   VictoryLabel,
   VictoryTheme,
   UserProps,
-} from "victory-core";
+} from "victory-core-custom";
 import Slice from "./slice";
 import { getBaseProps } from "./helper-methods";
 

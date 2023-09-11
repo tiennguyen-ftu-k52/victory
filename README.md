@@ -16,13 +16,13 @@
   <a href="https://npmjs.com/package/victory">
     <img alt="current version" src="https://img.shields.io/npm/v/victory.svg">
   </a>
-  <a href="https://github.com/FormidableLabs/victory/actions">
-    <img alt="build status" src="https://github.com/FormidableLabs/victory/actions/workflows/ci.yml/badge.svg">
+  <a href="https://github.com/tiennguyen-ftu-k52/victory/actions">
+    <img alt="build status" src="https://github.com/tiennguyen-ftu-k52/victory/actions/workflows/ci.yml/badge.svg">
   </a>
 
   <img alt="Gzip size" src="http://img.badgesize.io/https://unpkg.com/victory/dist/victory.min.js?compression=gzip&label=gzip%20size">
 
-  <a href="https://github.com/FormidableLabs/victory#maintenance-status">
+  <a href="https://github.com/tiennguyen-ftu-k52/victory#maintenance-status">
     <img alt="Maintenance Status" src="https://img.shields.io/badge/maintenance-active-green.svg" />
   </a>
 
@@ -59,7 +59,7 @@ $ yarn add victory
 ```js
 import React from "react";
 import { render } from "react-dom";
-import { VictoryPie } from "victory";
+import { VictoryPie } from "victory-custom";
 
 const PieChart = () => {
   return <VictoryPie />;

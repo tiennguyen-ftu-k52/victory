@@ -1,7 +1,7 @@
 /* eslint no-magic-numbers: ["error", { "ignore": [-1, 0, 1, 2] }]*/
 import React from "react";
 import PropTypes from "prop-types";
-import { Helpers, CommonProps, Path, UserProps } from "victory-core";
+import { Helpers, CommonProps, Path, UserProps } from "victory-core-custom";
 import { isPlainObject, assign } from "lodash";
 
 const getVerticalPath = (props) => {

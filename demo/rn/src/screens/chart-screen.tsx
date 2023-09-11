@@ -10,7 +10,7 @@ import {
   VictoryArea,
   VictoryStack,
   VictoryTooltip,
-} from "victory-native";
+} from "victory-native-custom";
 import viewStyles from "../styles/view-styles";
 import { getTransitionData } from "../data";
 

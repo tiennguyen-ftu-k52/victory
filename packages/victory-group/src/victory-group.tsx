@@ -20,8 +20,8 @@ import {
   VictoryTheme,
   Wrapper,
   VictoryComponentConfiguration,
-} from "victory-core";
-import { VictorySharedEvents } from "victory-shared-events";
+} from "victory-core-custom";
+import { VictorySharedEvents } from "victory-shared-events-custom";
 import { getChildren, useMemoizedProps } from "./helper-methods";
 import isEqual from "react-fast-compare";
 

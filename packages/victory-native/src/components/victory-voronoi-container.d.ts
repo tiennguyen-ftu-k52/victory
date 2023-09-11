@@ -2,7 +2,7 @@ import React from "react";
 import {
   VictoryVoronoiContainer,
   VictoryVoronoiContainerProps,
-} from "victory-voronoi-container";
+} from "victory-voronoi-container-custom";
 
 export const voronoiContainerMixin: (base: any) => VictoryVoronoiContainer;
 

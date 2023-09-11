@@ -1,8 +1,8 @@
 import { throttle, isFunction, defaults } from "lodash";
 import { Dimensions } from "react-native";
 import isEqual from "react-fast-compare";
-import { Collection } from "victory-core";
-import { RawZoomHelpers } from "victory-zoom-container";
+import { Collection } from "victory-core-custom";
+import { RawZoomHelpers } from "victory-zoom-container-custom";
 
 const hypotenuse = (x, y) => Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
 

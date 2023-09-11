@@ -1,4 +1,4 @@
-import { Selection } from "victory-core";
+import { Selection } from "victory-core-custom";
 import { assign, throttle, isFunction, defaults, mapValues } from "lodash";
 import isEqual from "react-fast-compare";
 

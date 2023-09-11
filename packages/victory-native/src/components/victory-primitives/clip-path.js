@@ -14,7 +14,7 @@ export default class VClipPath extends React.Component {
   render() {
     const { children, clipId } = this.props;
     // Wrap in G not to cause exceptions in old react-native-svg
-    // https://github.com/FormidableLabs/victory-native/issues/432#issuecomment-475927581
+    // https://github.com/tiennguyen-ftu-k52/victory-native/issues/432#issuecomment-475927581
     return (
       <G>
         <Defs>

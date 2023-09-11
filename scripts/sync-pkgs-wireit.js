@@ -30,8 +30,8 @@ const PKGS_ROOT = path.join(ROOT, "packages");
 
 // Special packages
 const PKGS = {
-  NATIVE: "victory-native",
-  VENDOR: "victory-vendor",
+  NATIVE: "victory-native-custom",
+  VENDOR: "victory-vender-custom",
 };
 const SPECIAL_PKGS = new Set([PKGS.NATIVE, PKGS.VENDOR]);
 
@@ -49,7 +49,7 @@ const writePkg = async (pkgPath, data, originalPkg) => {
   await fs.writeFile(pkgPath, `${json}\n`);
 };
 const clone = (obj) => JSON.parse(JSON.stringify(obj));
-const isVictoryPackage = (p) => p.startsWith("victory");
+const isVictoryPackage = (p) => p.startsWith("victory-custom");
 
 // Check for package locks, which we need to set on each wireit config
 // with non-empty `files`.

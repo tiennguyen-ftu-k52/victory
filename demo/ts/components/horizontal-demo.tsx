@@ -1,18 +1,18 @@
 /* eslint-disable no-magic-numbers */
 
 import React from "react";
-import { VictoryChart } from "victory-chart";
-import { VictoryStack } from "victory-stack";
-import { VictoryGroup } from "victory-group";
-import { VictoryBar } from "victory-bar";
-import { VictoryScatter } from "victory-scatter";
-import { VictoryLine } from "victory-line";
-import { VictoryArea } from "victory-area";
-import { VictoryCandlestick } from "victory-candlestick";
-import { VictoryErrorBar } from "victory-errorbar";
-import { VictoryBoxPlot } from "victory-box-plot";
-import { VictoryAxis } from "victory-axis";
-import { VictoryBrushContainer } from "victory-brush-container";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryStack } from "victory-stack-custom";
+import { VictoryGroup } from "victory-group-custom";
+import { VictoryBar } from "victory-bar-custom";
+import { VictoryScatter } from "victory-scatter-custom";
+import { VictoryLine } from "victory-line-custom";
+import { VictoryArea } from "victory-area-custom";
+import { VictoryCandlestick } from "victory-candlestick-custom";
+import { VictoryErrorBar } from "victory-errorbar-custom";
+import { VictoryBoxPlot } from "victory-box-plot-custom";
+import { VictoryAxis } from "victory-axis-custom";
+import { VictoryBrushContainer } from "victory-brush-container-custom";
 import { range, random } from "lodash";
 
 const errorData = [

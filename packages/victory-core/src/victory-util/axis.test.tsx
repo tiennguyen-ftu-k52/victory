@@ -1,7 +1,7 @@
 import React from "react";
-import { VictoryAxis } from "victory-axis";
-import { VictoryBar } from "victory-bar";
-import { Axis, Scale } from "victory-core";
+import { VictoryAxis } from "victory-axis-custom";
+import { VictoryBar } from "victory-bar-custom";
+import { Axis, Scale } from "victory-core-custom";
 
 describe("helpers/axis", () => {
   describe("isVertical", () => {

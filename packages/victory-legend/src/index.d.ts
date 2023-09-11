@@ -11,7 +11,7 @@ import {
   VictorySingleLabelableProps,
   VictoryStyleInterface,
   VictoryLabelStyleObject,
-} from "victory-core";
+} from "victory-core-custom";
 
 export type VictoryLegendTTargetType = "data" | "labels" | "parent";
 export type VictoryLegendOrientationType = "horizontal" | "vertical";

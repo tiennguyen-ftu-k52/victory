@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 import ReactMarkdown from "react-markdown";
 import { Link } from "react-router-dom";
 import ComponentPlayground from "component-playground";
-import * as Victory from "victory";
+import * as Victory from "victory-custom";
 import styled, { withTheme } from "styled-components";
 import {
   scaleDiscontinuous,

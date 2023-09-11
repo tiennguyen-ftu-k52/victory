@@ -1,5 +1,5 @@
 {
-  "name": "victory-vendor",
+  "name": "victory-vender-custom",
   "version": "36.6.11",
   "description": "Vendored dependencies for Victory",
   "keywords": [
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/FormidableLabs/victory"
+    "url": "https://github.com/tiennguyen-ftu-k52/victory"
   },
   "homepage": "https://formidable.com/open-source/victory",
   "author": "Formidable",

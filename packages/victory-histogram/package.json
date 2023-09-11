@@ -1,5 +1,5 @@
 {
-  "name": "victory-histogram",
+  "name": "victory-histogram-custom",
   "version": "36.6.11",
   "description": "Histogram Component for Victory",
   "keywords": [
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/FormidableLabs/victory"
+    "url": "https://github.com/tiennguyen-ftu-k52/victory"
   },
   "homepage": "https://formidable.com/open-source/victory",
   "sideEffects": false,
@@ -23,9 +23,9 @@
     "lodash": "^4.17.19",
     "prop-types": "^15.8.1",
     "react-fast-compare": "^3.2.0",
-    "victory-bar": "^36.6.11",
-    "victory-core": "^36.6.11",
-    "victory-vendor": "^36.6.11"
+    "victory-bar-custom": "^36.6.11",
+    "victory-core-custom": "^36.6.11",
+    "victory-vender-custom": "^36.6.11"
   },
   "peerDependencies": {
     "react": ">=16.6.0"

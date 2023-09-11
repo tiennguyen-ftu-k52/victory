@@ -7,7 +7,7 @@ import {
   VictoryDatableProps,
   VictoryMultiLabelableProps,
   VictoryStyleInterface,
-} from "victory-core";
+} from "victory-core-custom";
 
 export type VictoryHistogramTargetType = "data" | "labels" | "parent";
 

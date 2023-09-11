@@ -1,5 +1,11 @@
 import { assign, values, isNil } from "lodash";
-import { Helpers, LabelHelpers, Data, Domain, Scale } from "victory-core";
+import {
+  Helpers,
+  LabelHelpers,
+  Data,
+  Domain,
+  Scale,
+} from "victory-core-custom";
 
 export const getSymbol = (data, props) => {
   if (props.bubbleProperty) {

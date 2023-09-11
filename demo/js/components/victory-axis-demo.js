@@ -1,11 +1,11 @@
 /* eslint-disable no-magic-numbers */
 import React from "react";
-import { VictoryAxis } from "victory-axis";
+import { VictoryAxis } from "victory-axis-custom";
 import {
   VictoryLabel,
   VictoryContainer,
   VictoryTheme,
-} from "victory-core";
+} from "victory-core-custom";
 import { merge, random, range } from "lodash";
 import XYTheme from "../theme/victory-axis-differential-styling-theme";
 

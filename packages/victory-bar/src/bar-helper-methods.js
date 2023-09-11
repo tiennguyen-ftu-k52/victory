@@ -1,5 +1,5 @@
 import { assign, isNil, isPlainObject } from "lodash";
-import { Helpers } from "victory-core";
+import { Helpers } from "victory-core-custom";
 
 export const getBarWidth = (barWidth, props) => {
   const { scale, data, defaultBarWidth, style } = props;

@@ -20,9 +20,9 @@ import {
   VictoryContainer,
   VictoryTheme,
   Wrapper,
-} from "victory-core";
+} from "victory-core-custom";
 
-import { VictorySharedEvents } from "victory-shared-events";
+import { VictorySharedEvents } from "victory-shared-events-custom";
 import { getChildren, useMemoizedProps } from "./helper-methods";
 import isEqual from "react-fast-compare";
 

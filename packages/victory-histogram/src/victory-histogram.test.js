@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
 import { range } from "lodash";
-import { VictoryHistogram } from "victory-histogram";
+import { VictoryHistogram } from "victory-histogram-custom";
 import { isBar, getBarHeight } from "../../../test/helpers";
 
 describe("components/victory-histogram", () => {
@@ -11,10 +11,13 @@ describe("components/victory-histogram", () => {
   describe("default component rendering", () => {
     it("accepts user props", () => {
       render(
-        <VictoryHistogram data-testid="victory-histogram" aria-label="Chart" />,
+        <VictoryHistogram
+          data-testid="victory-histogram-custom"
+          aria-label="Chart"
+        />,
       );
 
-      const svgNode = screen.getByTestId("victory-histogram");
+      const svgNode = screen.getByTestId("victory-histogram-custom");
       expect(svgNode.getAttribute("aria-label")).toEqual("Chart");
     });
 

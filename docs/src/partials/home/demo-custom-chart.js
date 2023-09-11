@@ -1,6 +1,6 @@
 /*eslint-disable no-magic-numbers */
 import React from "react";
-import { VictoryAxis, VictoryLine, VictoryLabel } from "victory";
+import { VictoryAxis, VictoryLine, VictoryLabel } from "victory-custom";
 
 import importedTheme from "../../styles/theme";
 

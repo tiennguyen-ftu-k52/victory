@@ -7,9 +7,9 @@ import {
   getCornerRadius,
   getPolarBarPath,
   getStyle,
-} from "victory-bar";
+} from "victory-bar-custom";
 import { useCanvasContext } from "./hooks/use-canvas-context";
-import { CommonProps } from "victory-core";
+import { CommonProps } from "victory-core-custom";
 
 const evaluateProps = (props) => {
   /**

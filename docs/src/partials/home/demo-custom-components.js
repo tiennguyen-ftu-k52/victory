@@ -8,7 +8,7 @@ import {
   VictoryAxis,
   VictoryChart,
   VictoryLine,
-} from "victory";
+} from "victory-custom";
 
 import importedTheme from "../../styles/theme";
 

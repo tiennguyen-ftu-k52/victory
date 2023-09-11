@@ -9,7 +9,7 @@ import {
   CoordinatesPropType,
   VictoryLabelProps,
   ValueOrAccessor,
-} from "victory-core";
+} from "victory-core-custom";
 import { defaults, assign, isObject } from "lodash";
 import { CursorHelpers } from "./cursor-helpers";
 

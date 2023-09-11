@@ -1,16 +1,16 @@
 /* eslint-disable no-magic-numbers*/
 /* eslint-disable react/no-multi-comp*/
 import React from "react";
-import { VictoryHistogram } from "victory-histogram";
-import { VictoryChart } from "victory-chart";
-import { VictoryLine } from "victory-line";
-import { VictoryScatter } from "victory-scatter";
-import { VictoryTooltip } from "victory-tooltip";
-import { VictoryStack } from "victory-stack";
-import { VictoryTheme } from "victory-core";
+import { VictoryHistogram } from "victory-histogram-custom";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryLine } from "victory-line-custom";
+import { VictoryScatter } from "victory-scatter-custom";
+import { VictoryTooltip } from "victory-tooltip-custom";
+import { VictoryStack } from "victory-stack-custom";
+import { VictoryTheme } from "victory-core-custom";
 import { getData } from "./data";
 import { data, timeData } from "./victory-histogram-data";
-import { Bar } from "victory-bar";
+import { Bar } from "victory-bar-custom";
 
 import * as d3Array from "victory-vendor/d3-array";
 import * as d3Scale from "victory-vendor/d3-scale";

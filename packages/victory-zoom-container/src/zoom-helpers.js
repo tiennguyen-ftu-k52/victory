@@ -1,6 +1,6 @@
 /* eslint no-magic-numbers: ["error", { "ignore": [-1, 0, 1, 2, 1000] }]*/
 import { Children } from "react";
-import { Selection, Collection, Wrapper } from "victory-core";
+import { Selection, Collection, Wrapper } from "victory-core-custom";
 import { throttle, isFunction, defaults, delay } from "lodash";
 
 const RawZoomHelpers = {

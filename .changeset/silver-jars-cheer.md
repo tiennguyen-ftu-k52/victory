@@ -1,5 +1,5 @@
 ---
-"victory-brush-container": patch
+"victory-brush-container-custom": patch
 ---
 
 fix brush handle

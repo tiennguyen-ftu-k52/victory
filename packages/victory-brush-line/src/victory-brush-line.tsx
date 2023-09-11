@@ -10,7 +10,7 @@ import {
   Box,
   DomainTuple,
   VictoryStyleObject,
-} from "victory-core";
+} from "victory-core-custom";
 import { assign, defaults, isFunction, pick } from "lodash";
 import isEqual from "react-fast-compare";
 

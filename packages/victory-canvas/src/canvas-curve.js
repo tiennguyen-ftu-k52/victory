@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { CommonProps, LineHelpers } from "victory-core";
+import { CommonProps, LineHelpers } from "victory-core-custom";
 import { useCanvasContext } from "./hooks/use-canvas-context";
 
 const CanvasCurve = (props) => {

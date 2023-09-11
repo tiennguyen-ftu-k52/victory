@@ -10,7 +10,7 @@ import {
   VictoryLine,
   VictoryScatter,
   CanvasPoint,
-} from "victory";
+} from "victory-custom";
 import { range, random } from "lodash";
 
 const populationData = [

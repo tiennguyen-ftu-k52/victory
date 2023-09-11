@@ -1,5 +1,5 @@
 {
-  "name": "victory-errorbar",
+  "name": "victory-errorbar-custom",
   "version": "36.6.11",
   "description": "Error Bar Component for Victory",
   "keywords": [
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/FormidableLabs/victory"
+    "url": "https://github.com/tiennguyen-ftu-k52/victory"
   },
   "homepage": "https://formidable.com/open-source/victory",
   "sideEffects": false,
@@ -22,13 +22,13 @@
   "dependencies": {
     "lodash": "^4.17.19",
     "prop-types": "^15.8.1",
-    "victory-core": "^36.6.11"
+    "victory-core-custom": "^36.6.11"
   },
   "peerDependencies": {
     "react": ">=16.6.0"
   },
   "devDependencies": {
-    "victory-errorbar": "*"
+    "victory-errorbar-custom": "*"
   },
   "publishConfig": {
     "provenance": true

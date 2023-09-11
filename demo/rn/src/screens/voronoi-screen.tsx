@@ -1,7 +1,7 @@
 import * as React from "react";
 import { ScrollView } from "react-native";
 import viewStyles from "../styles/view-styles";
-import { VictoryTheme, VictoryVoronoi, VictoryChart } from "victory-native";
+import { VictoryTheme, VictoryVoronoi, VictoryChart } from "victory-native-custom";
 
 export const VoronoiScreen: React.FC = () => {
   return (

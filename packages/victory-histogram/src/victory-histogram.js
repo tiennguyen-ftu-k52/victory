@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Bar } from "victory-bar";
+import { Bar } from "victory-bar-custom";
 import {
   Helpers,
   VictoryLabel,
@@ -10,7 +10,7 @@ import {
   addEvents,
   PropTypes as CustomPropTypes,
   UserProps,
-} from "victory-core";
+} from "victory-core-custom";
 import {
   getBaseProps,
   getData,

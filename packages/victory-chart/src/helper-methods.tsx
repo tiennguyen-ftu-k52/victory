@@ -1,7 +1,7 @@
 /* eslint-disable no-use-before-define */
 
 import React from "react";
-import { Helpers, Scale, Axis, Wrapper } from "victory-core";
+import { Helpers, Scale, Axis, Wrapper } from "victory-core-custom";
 import { defaults, assign } from "lodash";
 
 const fallbackProps = {

@@ -52,7 +52,7 @@ const Introduction = ({ content }) => {
   const mobileLinks = [
     { slug: "/about", title: "About" },
     { slug: "/gallery", title: "Gallery" },
-    { slug: "https://github.com/FormidableLabs/victory", title: "Github" },
+    { slug: "https://github.com/tiennguyen-ftu-k52/victory", title: "Github" },
     { slug: "/docs/faq", title: "FAQs" },
   ];
   return (

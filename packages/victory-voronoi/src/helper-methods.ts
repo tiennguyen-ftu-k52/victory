@@ -1,7 +1,13 @@
 import { assign, without, isNil } from "lodash";
 // victory-vendor note: This module is still CommonJS, so not part of victory-vendor.
 import { voronoi as d3Voronoi } from "d3-voronoi";
-import { Helpers, LabelHelpers, Scale, Domain, Data } from "victory-core";
+import {
+  Helpers,
+  LabelHelpers,
+  Scale,
+  Domain,
+  Data,
+} from "victory-core-custom";
 
 // Re-export for tests
 export { d3Voronoi as _internalD3Voronoi };

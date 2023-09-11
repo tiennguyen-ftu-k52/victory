@@ -2,7 +2,7 @@ import React from "react";
 import {
   VictoryBrushContainer,
   VictoryBrushContainerProps,
-} from "victory-brush-container";
+} from "victory-brush-container-custom";
 
 export const brushContainerMixin: (base: any) => VictoryBrushContainer;
 

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { ScrollView, View } from "react-native";
-import { VictoryScatter } from "victory-native";
+import { VictoryScatter } from "victory-native-custom";
 import viewStyles from "../styles/view-styles";
 import { generateRandomData } from "../data";
 

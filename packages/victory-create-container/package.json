@@ -1,5 +1,5 @@
 {
-  "name": "victory-create-container",
+  "name": "victory-create-container-custom",
   "version": "36.6.11",
   "description": "Container Helper for Victory",
   "keywords": [
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/FormidableLabs/victory"
+    "url": "https://github.com/tiennguyen-ftu-k52/victory"
   },
   "homepage": "https://formidable.com/open-source/victory",
   "sideEffects": false,
@@ -21,12 +21,12 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.19",
-    "victory-brush-container": "^36.6.11",
-    "victory-core": "^36.6.11",
-    "victory-cursor-container": "^36.6.11",
-    "victory-selection-container": "^36.6.11",
-    "victory-voronoi-container": "^36.6.11",
-    "victory-zoom-container": "^36.6.11"
+    "victory-brush-container-custom": "^36.6.11",
+    "victory-core-custom": "^36.6.11",
+    "victory-cursor-container-custom": "^36.6.11",
+    "victory-selection-container-custom": "^36.6.11",
+    "victory-voronoi-container-custom": "^36.6.11",
+    "victory-zoom-container-custom": "^36.6.11"
   },
   "peerDependencies": {
     "react": ">=16.6.0"

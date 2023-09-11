@@ -1,7 +1,7 @@
 /* global window:false */
 /*eslint-disable no-magic-numbers */
 import React from "react";
-import { VictoryScatter, VictoryChart } from "victory";
+import { VictoryScatter, VictoryChart } from "victory-custom";
 import { range, random } from "lodash";
 
 import importedTheme from "../../styles/theme";

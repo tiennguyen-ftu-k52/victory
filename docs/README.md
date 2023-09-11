@@ -1,6 +1,6 @@
 <h1 align="center">Victory Documentation Site</h1>
 
-[Documentation site](https://formidable.com/open-source/victory/) for [victory](https://github.com/FormidableLabs/victory) built with [react-static](https://github.com/nozzle/react-static), and deployed with [formideploy](https://github.com/FormidableLabs/formideploy)
+[Documentation site](https://formidable.com/open-source/victory/) for [victory](https://github.com/tiennguyen-ftu-k52/victory) built with [react-static](https://github.com/nozzle/react-static), and deployed with [formideploy](https://github.com/FormidableLabs/formideploy)
 
 
 ## Getting Started

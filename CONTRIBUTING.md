@@ -4,14 +4,14 @@
 
 Victory is open to pull requests, issue reports, and questions from the community. Here are some good ways to get help if you need it.
 
-- If you have a question, please [open a new Q&A discussion thread](https://github.com/FormidableLabs/victory/discussions/new)
-- If you think you have found a bug, [open a new issue](https://github.com/FormidableLabs/victory/issues/new)
+- If you have a question, please [open a new Q&A discussion thread](https://github.com/tiennguyen-ftu-k52/victory/discussions/new)
+- If you think you have found a bug, [open a new issue](https://github.com/tiennguyen-ftu-k52/victory/issues/new)
 
-If you are a new contributor looking to learn more about Victory, check out our [good first issues board](https://github.com/FormidableLabs/victory/projects/2).
+If you are a new contributor looking to learn more about Victory, check out our [good first issues board](https://github.com/tiennguyen-ftu-k52/victory/projects/2).
 
 ### Current goals and initiatives
 
-There are some parts of Victory that are in need of a little extra attention right now, including state management, transitions and animations, and pan and zoom behavior. These larger goals are being tracked in [milestones](https://github.com/FormidableLabs/victory/milestones). The goal for these milestones is re-work parts of Victory to make them more performant, easier to fix, and more accessible for new contributors. If your issue is related to one of these milestones, we may not be able to push up a fix right away, but we will label it accordingly and address it as a part of this larger scope of work.
+There are some parts of Victory that are in need of a little extra attention right now, including state management, transitions and animations, and pan and zoom behavior. These larger goals are being tracked in [milestones](https://github.com/tiennguyen-ftu-k52/victory/milestones). The goal for these milestones is re-work parts of Victory to make them more performant, easier to fix, and more accessible for new contributors. If your issue is related to one of these milestones, we may not be able to push up a fix right away, but we will label it accordingly and address it as a part of this larger scope of work.
 
 ## Monorepo!
 
@@ -27,7 +27,7 @@ Victory is a monorepo built with [Wireit](https://github.com/google/wireit) and 
 Clone this repo:
 
 ```sh
-$ git clone https://github.com/FormidableLabs/victory.git
+$ git clone https://github.com/tiennguyen-ftu-k52/victory.git
 $ cd victory
 ```
 

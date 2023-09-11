@@ -28,7 +28,7 @@ Import charts from `victory-native`. For example,
 ```jsx
 import React, { Component } from "react";
 
-import { VictoryBar } from "victory-native";
+import { VictoryBar } from "victory-native-custom";
 
 class App extends Component {
   render() {
@@ -65,7 +65,7 @@ To open the demo app, just fire up the expo app.
 
 ```sh
 # Install victory and its dependencies
-$ git clone https://github.com/FormidableLabs/victory
+$ git clone https://github.com/tiennguyen-ftu-k52/victory
 $ cd victory
 $ yarn install
 # Open up the React Native demo app
@@ -93,7 +93,7 @@ Please review our [Code of Conduct][code] before contributing.
 
 
 [code]: https://github.com/FormidableLabs/.github/blob/master/CODE_OF_CONDUCT.md
-[victory-native-demo]:https://github.com/FormidableLabs/victory-native-demo
+[victory-native-demo]:https://github.com/tiennguyen-ftu-k52/victory-native-demo
 [react-native-svg-readme]: https://github.com/react-native-community/react-native-svg#notice
 [maintenance-image]: https://img.shields.io/badge/maintenance-active-green.svg
 

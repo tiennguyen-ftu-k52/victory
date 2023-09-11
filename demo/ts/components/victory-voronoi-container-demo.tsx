@@ -1,16 +1,16 @@
 /* eslint-disable no-magic-numbers */
 import React from "react";
 import { random, range } from "lodash";
-import { VictoryChart } from "victory-chart";
-import { VictoryStack } from "victory-stack";
-import { VictoryGroup } from "victory-group";
-import { VictoryBar } from "victory-bar";
-import { VictoryLine } from "victory-line";
-import { VictoryScatter } from "victory-scatter";
-import { VictoryVoronoiContainer } from "victory-voronoi-container";
-import { Flyout, VictoryTooltip } from "victory-tooltip";
-import { VictoryLegend } from "victory-legend";
-import { VictoryLabel, VictoryTheme } from "victory-core";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryStack } from "victory-stack-custom";
+import { VictoryGroup } from "victory-group-custom";
+import { VictoryBar } from "victory-bar-custom";
+import { VictoryLine } from "victory-line-custom";
+import { VictoryScatter } from "victory-scatter-custom";
+import { VictoryVoronoiContainer } from "victory-voronoi-container-custom";
+import { Flyout, VictoryTooltip } from "victory-tooltip-custom";
+import { VictoryLegend } from "victory-legend-custom";
+import { VictoryLabel, VictoryTheme } from "victory-core-custom";
 
 interface VictoryVoronoiContainerDemoState {
   data: {

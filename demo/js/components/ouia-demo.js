@@ -1,7 +1,7 @@
 import React from "react";
-import { VictoryChart } from "victory-chart";
-import { VictoryLine } from "victory-line";
-import { VictoryContainer } from "victory-core";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryLine } from "victory-line-custom";
+import { VictoryContainer } from "victory-core-custom";
 
 class App extends React.Component {
   constructor(props) {

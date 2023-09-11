@@ -1,6 +1,6 @@
 import { assign } from "lodash";
 import React from "react";
-import { VictoryBar } from "victory-bar";
+import { VictoryBar } from "victory-bar-custom";
 import SelectionHelpers from "victory-selection-container/lib/selection-helpers";
 import * as d3Scale from "victory-vendor/d3-scale";
 

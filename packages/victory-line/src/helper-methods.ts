@@ -1,5 +1,11 @@
 import { assign, isNil } from "lodash";
-import { Helpers, LabelHelpers, Data, Domain, Scale } from "victory-core";
+import {
+  Helpers,
+  LabelHelpers,
+  Data,
+  Domain,
+  Scale,
+} from "victory-core-custom";
 
 const getCalculatedValues = (props) => {
   let data = Data.getData(props);

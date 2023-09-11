@@ -4,7 +4,7 @@ import {
   VictoryCursorContainer,
   CursorHelpers,
   cursorContainerMixin as originalCursorMixin,
-} from "victory-cursor-container";
+} from "victory-cursor-container-custom";
 import VictoryLabel from "./victory-label";
 import VictoryContainer from "./victory-container";
 import LineSegment from "./victory-primitives/line-segment";

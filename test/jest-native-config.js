@@ -9,7 +9,7 @@ module.exports = {
   testPathIgnorePatterns: ["node_modules", "config", "/es/", "/lib/"],
   transform: {
     // TODO(2215): Switch over to only transpiling from within `/test/`
-    // https://github.com/FormidableLabs/victory/issues/2215
+    // https://github.com/tiennguyen-ftu-k52/victory/issues/2215
     "^.+\\.(js|jsx)$": BABEL_TRANSFORM,
   },
   transformIgnorePatterns: ["/node_modules/", "/lib/"],

@@ -3,12 +3,12 @@
 
 import { fromJS } from "immutable";
 import React from "react";
-import { CanvasGroup, CanvasPoint } from "victory-canvas";
-import { VictoryChart } from "victory-chart";
-import { VictoryTheme } from "victory-core";
-import { VictoryScatter } from "victory-scatter";
-import { VictoryStack } from "victory-stack";
-import { VictoryTooltip } from "victory-tooltip";
+import { CanvasGroup, CanvasPoint } from "victory-canvas-custom";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryTheme } from "victory-core-custom";
+import { VictoryScatter } from "victory-scatter-custom";
+import { VictoryStack } from "victory-stack-custom";
+import { VictoryTooltip } from "victory-tooltip-custom";
 import { getData, getMixedData } from "./data";
 
 const SYMBOLS = [

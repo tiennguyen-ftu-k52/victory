@@ -1,4 +1,4 @@
-import { Scale } from "victory-core";
+import { Scale } from "victory-core-custom";
 import * as d3Scale from "victory-vendor/d3-scale";
 
 describe("victory-util/scale", () => {

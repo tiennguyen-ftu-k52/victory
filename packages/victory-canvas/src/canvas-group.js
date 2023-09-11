@@ -1,7 +1,7 @@
 import React from "react";
 import { CanvasContext } from "./hooks/use-canvas-context";
 import PropTypes from "prop-types";
-import { PropTypes as CustomPropTypes } from "victory-core";
+import { PropTypes as CustomPropTypes } from "victory-core-custom";
 
 const CanvasGroup = (props) => {
   const canvasRef = React.useRef();

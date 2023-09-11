@@ -129,7 +129,7 @@ const DUCK_TYPES = [
   { name: "log", method: "base" },
   // TODO(2214): Re-evaluate (1) duck typing approach, and (2) if duck typing,
   //   do we need a different approach? (Multiple keys? Stringifying functions?)
-  // https://github.com/FormidableLabs/victory/issues/2214
+  // https://github.com/tiennguyen-ftu-k52/victory/issues/2214
   // Below are matches that don't seem to otherwise occur in Victory code base.
   // { name: "ordinal", method: "unknown" },
   // { name: "pow-sqrt", method: "exponent" },

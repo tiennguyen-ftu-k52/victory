@@ -1,5 +1,5 @@
 import React from "react";
-import { VictoryContainerProps } from "victory-core";
+import { VictoryContainerProps } from "victory-core-custom";
 
 export interface VictoryContainerNativeProps extends VictoryContainerProps {
   disableContainerEvents?: boolean;

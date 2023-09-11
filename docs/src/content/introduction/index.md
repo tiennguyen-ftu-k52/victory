@@ -15,13 +15,13 @@ Victory is an opinionated, but fully overridable, ecosystem of composable React 
 
 ## Tutorial
 
-In this guide, we’ll show you how to get started with Victory and walk you through the creation and customization of a composed chart. We’ve created a GitHub repository with the completed project, and will link to the corresponding commit where appropriate to help you follow along. If you want, you can [view the completed tutorial here](https://github.com/FormidableLabs/victory-tutorial/blob/master/src/js/client.js).
+In this guide, we’ll show you how to get started with Victory and walk you through the creation and customization of a composed chart. We’ve created a GitHub repository with the completed project, and will link to the corresponding commit where appropriate to help you follow along. If you want, you can [view the completed tutorial here](https://github.com/tiennguyen-ftu-k52/victory-tutorial/blob/master/src/js/client.js).
 
 #### 1. Set up a basic React project
 
 You can do this on your own if you'd like, or you can...
 
-* Clone down [this project we've started for you](https://github.com/FormidableLabs/victory-tutorial) using ```git clone git@github.com:FormidableLabs/victory-tutorial.git```
+* Clone down [this project we've started for you](https://github.com/tiennguyen-ftu-k52/victory-tutorial) using ```git clone git@github.com:FormidableLabs/victory-tutorial.git```
 * `cd victory-tutorial`
 * Replace the existing code in the `client.js` file with:
 
@@ -87,7 +87,7 @@ Components include sensible defaults, so even without data `VictoryBar` will ren
 <VictoryBar/>
 ```
 
-Let's add some data. VictoryBar looks for `x` and `y` values in data points, which our data doesn't have. We can work around this by adding accessor props to our `VictoryBar` component. ([See the commit here](https://github.com/FormidableLabs/victory-tutorial/blob/3a0951d78202e4333fc8ae07a673173732209ee5/src/js/client.js).)
+Let's add some data. VictoryBar looks for `x` and `y` values in data points, which our data doesn't have. We can work around this by adding accessor props to our `VictoryBar` component. ([See the commit here](https://github.com/tiennguyen-ftu-k52/victory-tutorial/blob/3a0951d78202e4333fc8ae07a673173732209ee5/src/js/client.js).)
 
 ```playground_norender
 const data = [
@@ -124,7 +124,7 @@ import ReactDOM from 'react-dom';
 import { VictoryBar, VictoryChart } from 'victory';
 ```
 
-Next wrap the `VictoryBar` component in `VictoryChart`. Default axes are automatically configured to match data provided by `VictoryBar`. ([See the commit here](https://github.com/FormidableLabs/victory-tutorial/blob/15063b2f79cff843f668f43ddd46d4bcd7f96acd/src/js/client.js).)
+Next wrap the `VictoryBar` component in `VictoryChart`. Default axes are automatically configured to match data provided by `VictoryBar`. ([See the commit here](https://github.com/tiennguyen-ftu-k52/victory-tutorial/blob/15063b2f79cff843f668f43ddd46d4bcd7f96acd/src/js/client.js).)
 
 ```playground_norender
 const data = [
@@ -161,7 +161,7 @@ import ReactDOM from 'react-dom';
 import { VictoryBar, VictoryChart, VictoryAxis } from 'victory';
 ```
 
-In the chart below, we've modified the axes to better fit our needs. If you want to retain a vertical axis, remember to add a second axis component with the `dependentAxis` prop set to `true`. We've modified the format of the tick labels on our vertical axis with the `tickFormat` prop, and have included only the tick values that we need on the horizontal axis by passing an array to the `tickValues` prop. We've also added the `domainPadding` prop to our `VictoryChart` component for good measure, to space the bars further from the y-axis ([See the commit here](https://github.com/FormidableLabs/victory-tutorial/blob/c5be2277266d6e78f9402a610decb08e07642de2/src/js/client.js).)
+In the chart below, we've modified the axes to better fit our needs. If you want to retain a vertical axis, remember to add a second axis component with the `dependentAxis` prop set to `true`. We've modified the format of the tick labels on our vertical axis with the `tickFormat` prop, and have included only the tick values that we need on the horizontal axis by passing an array to the `tickValues` prop. We've also added the `domainPadding` prop to our `VictoryChart` component for good measure, to space the bars further from the y-axis ([See the commit here](https://github.com/tiennguyen-ftu-k52/victory-tutorial/blob/c5be2277266d6e78f9402a610decb08e07642de2/src/js/client.js).)
 
 ```playground_norender
 const data = [
@@ -215,7 +215,7 @@ import { VictoryBar, VictoryChart, VictoryAxis,
         VictoryTheme } from 'victory';
 ```
 
-And here's the code and rendered component with the new theme ([See the commit here](https://github.com/FormidableLabs/victory-tutorial/tree/fb904143eea6046e6841b4284e044360d4af5cf1/src/js/client.js)):
+And here's the code and rendered component with the new theme ([See the commit here](https://github.com/tiennguyen-ftu-k52/victory-tutorial/tree/fb904143eea6046e6841b4284e044360d4af5cf1/src/js/client.js)):
 
 ```playground_norender
 const data = [
@@ -265,7 +265,7 @@ import { VictoryBar, VictoryChart, VictoryAxis,
         VictoryTheme, VictoryStack } from 'victory';
 ```
 
-Wrap all four `VictoryBar` components with `VictoryStack`. ([See the commit here](https://github.com/FormidableLabs/victory-tutorial/tree/9bf170061599027e4bd5fcf8128e47adb83c0e98/src/js/client.js).)
+Wrap all four `VictoryBar` components with `VictoryStack`. ([See the commit here](https://github.com/tiennguyen-ftu-k52/victory-tutorial/tree/9bf170061599027e4bd5fcf8128e47adb83c0e98/src/js/client.js).)
 
 ```playground_norender
 const data2012 = [
@@ -343,7 +343,7 @@ ReactDOM.render(<App/>, mountNode);
 
 #### 9. Override theme's color scale
 
-`VictoryStack` can also be used to provide shared styles and props to its children. Let's add a `colorScale` prop to `VictoryStack` to override the default `colorScale` defined in `VictoryTheme.material`. ([See the commit here](https://github.com/FormidableLabs/victory-tutorial/tree/9c77240e45db4e9fde4123ae29304461739a7035/src/js/client.js).)
+`VictoryStack` can also be used to provide shared styles and props to its children. Let's add a `colorScale` prop to `VictoryStack` to override the default `colorScale` defined in `VictoryTheme.material`. ([See the commit here](https://github.com/tiennguyen-ftu-k52/victory-tutorial/tree/9c77240e45db4e9fde4123ae29304461739a7035/src/js/client.js).)
 
 ```playground_norender
 const data2012 = [
@@ -427,7 +427,7 @@ Congratulations! You’ve created your first chart with Victory. Next, check out
 
 ## Documentation, Contributing, and Source
 
-For more information about Victory and its components, check out the docs - see [VictoryChart](/docs/victory-chart) to get started. Interested in helping out or seeing what's happening under the hood? Victory is maintained at [github.com/FormidableLabs/victory](https://github.com/FormidableLabs/victory), and you can [start contributing here](https://github.com/FormidableLabs/victory/#contributing).
+For more information about Victory and its components, check out the docs - see [VictoryChart](/docs/victory-chart) to get started. Interested in helping out or seeing what's happening under the hood? Victory is maintained at [github.com/FormidableLabs/victory](https://github.com/tiennguyen-ftu-k52/victory), and you can [start contributing here](https://github.com/tiennguyen-ftu-k52/victory/#contributing).
 
 [our guides]: /guides
 [Gallery]: /gallery
