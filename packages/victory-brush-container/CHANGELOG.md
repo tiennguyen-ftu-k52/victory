@@ -1,5 +1,11 @@
 ## 36.6.12
 
+## 36.6.13
+
+### Patch Changes
+
+- fix r ([`c2248863`](https://github.com/FormidableLabs/victory/commit/c22488636744498054763ce89bca3570160770c3))
+
 ## 36.6.12
 
 ### Patch Changes
