@@ -1,5 +1,7 @@
 # victory-core
 
+## 36.6.12
+
 ## 36.6.11
 
 ### Patch Changes
