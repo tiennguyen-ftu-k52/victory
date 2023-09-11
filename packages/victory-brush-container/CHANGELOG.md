@@ -1,5 +1,11 @@
 # victory-brush-container
 
+## 36.6.12
+
+### Patch Changes
+
+- fix brush handle ([`cae7e3ed`](https://github.com/FormidableLabs/victory/commit/cae7e3ed21b76118c1ad20b71bb0a294c14158c9))
+
 ## 36.6.11
 
 ## 36.6.10
