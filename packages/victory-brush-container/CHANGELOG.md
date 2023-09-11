@@ -1,4 +1,10 @@
 ## 36.6.12
+
+## 36.6.12
+
+### Patch Changes
+
+- fix brush ([`206a8f5d`](https://github.com/FormidableLabs/victory/commit/206a8f5d5b43081057868462e76968ee2b3b2fe9))
 - Fix brush container
 
 ## 36.6.11

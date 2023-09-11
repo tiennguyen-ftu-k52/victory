@@ -267,85 +267,85 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-area:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-area
       victory-axis:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-axis
       victory-bar:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-bar
       victory-box-plot:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-box-plot
       victory-brush-container:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-brush-container
       victory-brush-line:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-brush-line
       victory-candlestick:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-candlestick
       victory-canvas:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-canvas
       victory-chart:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-chart
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
       victory-create-container:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-create-container
       victory-cursor-container:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-cursor-container
       victory-errorbar:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-errorbar
       victory-group:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-group
       victory-histogram:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-histogram
       victory-legend:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-legend
       victory-line:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-line
       victory-pie:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-pie
       victory-polar-axis:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-polar-axis
       victory-scatter:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-scatter
       victory-selection-container:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-selection-container
       victory-shared-events:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-shared-events
       victory-stack:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-stack
       victory-tooltip:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-tooltip
       victory-voronoi:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-voronoi
       victory-voronoi-container:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-voronoi-container
       victory-zoom-container:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-zoom-container
     devDependencies:
       victory:
@@ -364,10 +364,10 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
       victory-vendor:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-vendor
     devDependencies:
       victory-area:
@@ -389,7 +389,7 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
     devDependencies:
       victory-axis:
@@ -411,10 +411,10 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
       victory-vendor:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-vendor
     devDependencies:
       victory-bar:
@@ -436,17 +436,17 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
       victory-vendor:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-vendor
     devDependencies:
       victory-box-plot:
         specifier: '*'
         version: 'link:'
       victory-chart:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-chart
 
   packages/victory-brush-container:
@@ -464,7 +464,7 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
     devDependencies:
       victory-brush-container:
@@ -486,7 +486,7 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
 
   packages/victory-candlestick:
@@ -501,11 +501,11 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
     devDependencies:
       victory-chart:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-chart
 
   packages/victory-canvas:
@@ -520,10 +520,10 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-bar:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-bar
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
 
   packages/victory-chart:
@@ -541,16 +541,16 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0
       victory-axis:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-axis
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
       victory-polar-axis:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-polar-axis
       victory-shared-events:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-shared-events
     devDependencies:
       victory-chart:
@@ -575,7 +575,7 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0
       victory-vendor:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-vendor
     devDependencies:
       victory-axis:
@@ -600,22 +600,22 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-brush-container:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-brush-container
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
       victory-cursor-container:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-cursor-container
       victory-selection-container:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-selection-container
       victory-voronoi-container:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-voronoi-container
       victory-zoom-container:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-zoom-container
 
   packages/victory-cursor-container:
@@ -630,7 +630,7 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
 
   packages/victory-errorbar:
@@ -645,7 +645,7 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
     devDependencies:
       victory-errorbar:
@@ -667,10 +667,10 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
       victory-shared-events:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-shared-events
     devDependencies:
       victory-bar:
@@ -695,13 +695,13 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0
       victory-bar:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-bar
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
       victory-vendor:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-vendor
 
   packages/victory-legend:
@@ -716,7 +716,7 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
 
   packages/victory-line:
@@ -731,10 +731,10 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
       victory-vendor:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-vendor
     devDependencies:
       victory-chart:
@@ -759,85 +759,85 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0
       victory:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory
       victory-area:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-area
       victory-axis:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-axis
       victory-bar:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-bar
       victory-box-plot:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-box-plot
       victory-brush-container:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-brush-container
       victory-brush-line:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-brush-line
       victory-candlestick:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-candlestick
       victory-chart:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-chart
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
       victory-create-container:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-create-container
       victory-cursor-container:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-cursor-container
       victory-errorbar:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-errorbar
       victory-group:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-group
       victory-histogram:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-histogram
       victory-legend:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-legend
       victory-line:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-line
       victory-pie:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-pie
       victory-polar-axis:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-polar-axis
       victory-scatter:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-scatter
       victory-selection-container:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-selection-container
       victory-shared-events:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-shared-events
       victory-stack:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-stack
       victory-tooltip:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-tooltip
       victory-voronoi:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-voronoi
       victory-voronoi-container:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-voronoi-container
       victory-zoom-container:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-zoom-container
     devDependencies:
       '@babel/core':
@@ -865,10 +865,10 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
       victory-vendor:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-vendor
     devDependencies:
       victory-pie:
@@ -887,7 +887,7 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
 
   packages/victory-scatter:
@@ -902,7 +902,7 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
     devDependencies:
       victory-scatter:
@@ -921,11 +921,11 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
     devDependencies:
       victory-bar:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-bar
 
   packages/victory-shared-events:
@@ -946,7 +946,7 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
 
   packages/victory-stack:
@@ -964,10 +964,10 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
       victory-shared-events:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-shared-events
     devDependencies:
       victory-bar:
@@ -992,7 +992,7 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
 
   packages/victory-vendor:
@@ -1080,7 +1080,7 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
 
   packages/victory-voronoi-container:
@@ -1101,10 +1101,10 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
       victory-tooltip:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-tooltip
 
   packages/victory-zoom-container:
@@ -1119,7 +1119,7 @@ importers:
         specifier: '>=16.6.0'
         version: 18.2.0
       victory-core:
-        specifier: ^36.6.11
+        specifier: ^36.6.12
         version: link:../victory-core
 
 packages:
