@@ -51,7 +51,7 @@ The example below shows how Victory Native easily integrates within your React N
 ```jsx
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import { VictoryBar, VictoryChart, VictoryTheme } from "victory-native";
+import { VictoryBar, VictoryChart, VictoryTheme } from "victory-native-custom";
 
 const data = [
   { quarter: 1, earnings: 13000 },
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
 
 #### 4. Ignoring require cycles
 
-- see https://github.com/FormidableLabs/victory/issues/2230
+- see https://github.com/tiennguyen-ftu-k52/victory/issues/2230
 
 As of victory@36.4.0, React Native apps (on both iOS and Android) will warn about require cycles.
 

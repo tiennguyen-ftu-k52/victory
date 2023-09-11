@@ -1,10 +1,10 @@
 /* eslint-disable no-magic-numbers*/
 /* eslint-disable react/no-multi-comp*/
 import React from "react";
-import { VictoryCandlestick, Candle } from "victory-candlestick";
-import { VictoryChart } from "victory-chart";
-import { VictoryTooltip } from "victory-tooltip";
-import { VictoryTheme } from "victory-core";
+import { VictoryCandlestick, Candle } from "victory-candlestick-custom";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryTooltip } from "victory-tooltip-custom";
+import { VictoryTheme } from "victory-core-custom";
 import { range } from "lodash";
 import seedrandom from "seedrandom";
 import { fromJS } from "immutable";

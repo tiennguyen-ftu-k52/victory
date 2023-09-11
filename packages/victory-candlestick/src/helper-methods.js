@@ -6,7 +6,7 @@ import {
   Data,
   LabelHelpers,
   Collection,
-} from "victory-core";
+} from "victory-core-custom";
 
 const TYPES = ["close", "open", "high", "low"];
 

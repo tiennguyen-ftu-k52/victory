@@ -1,9 +1,9 @@
 /**
  * Client tests
  */
-const Victory = require("victory");
+const Victory = require("victory-custom");
 
-describe("victory", () => {
+describe("victory-custom", () => {
   // eslint-disable-line max-statements
   describe("exports victory components", () => {
     it("exports VictoryAnimation", () => {

@@ -1,7 +1,7 @@
 /* eslint-disable no-use-before-define */
 import { assign } from "lodash";
 import React from "react";
-import { Data, Helpers, Scale, Wrapper } from "victory-core";
+import { Data, Helpers, Scale, Wrapper } from "victory-core-custom";
 import isEqual from "react-fast-compare";
 
 const fallbackProps = {

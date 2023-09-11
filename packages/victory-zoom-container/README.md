@@ -4,4 +4,4 @@
 
 To view documentation for `VictoryZoomContainer` please see https://formidable.com/open-source/victory/docs/victory-zoom-container
 
-To suggest an addition or correction to this documentation please see https://github.com/FormidableLabs/victory/blob/main/docs/src/content/docs/victory-zoom-container.md
+To suggest an addition or correction to this documentation please see https://github.com/tiennguyen-ftu-k52/victory/blob/main/docs/src/content/docs/victory-zoom-container.md

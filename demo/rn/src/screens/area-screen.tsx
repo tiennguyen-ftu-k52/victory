@@ -1,6 +1,6 @@
 import * as React from "react";
 import { ScrollView } from "react-native";
-import { VictoryArea, VictoryGroup, VictoryStack } from "victory-native";
+import { VictoryArea, VictoryGroup, VictoryStack } from "victory-native-custom";
 import viewStyles from "../styles/view-styles";
 import { getData } from "../data";
 

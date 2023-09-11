@@ -14,7 +14,7 @@ import {
   Events,
   Helpers,
   TimerContext,
-} from "victory-core";
+} from "victory-core-custom";
 import isEqual from "react-fast-compare";
 import stringify from "json-stringify-safe";
 

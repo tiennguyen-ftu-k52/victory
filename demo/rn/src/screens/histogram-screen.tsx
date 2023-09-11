@@ -1,6 +1,6 @@
 import * as React from "react";
 import { ScrollView } from "react-native";
-import { VictoryStack, VictoryHistogram } from "victory-native";
+import { VictoryStack, VictoryHistogram } from "victory-native-custom";
 import viewStyles from "../styles/view-styles";
 
 const randomDate = (start: Date, end: Date) => {

@@ -2,9 +2,9 @@
 /* eslint-disable react/no-multi-comp*/
 
 import React from "react";
-import { VictoryPie, Slice } from "victory-pie";
-import { VictoryTooltip } from "victory-tooltip";
-import { VictoryTheme, Helpers } from "victory-core";
+import { VictoryPie, Slice } from "victory-pie-custom";
+import { VictoryTooltip } from "victory-tooltip-custom";
+import { VictoryTheme, Helpers } from "victory-core-custom";
 import { fromJS } from "immutable";
 import styled from "styled-components";
 

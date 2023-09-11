@@ -1,7 +1,7 @@
 import { assign } from "lodash";
 import PropTypes from "prop-types";
 import React from "react";
-import { CommonProps, Helpers, Path } from "victory-core";
+import { CommonProps, Helpers, Path } from "victory-core-custom";
 import { getStyle, getBarWidth, getCornerRadius } from "./bar-helper-methods";
 import { getPolarBarPath, getBarPath } from "./path-helper-methods";
 

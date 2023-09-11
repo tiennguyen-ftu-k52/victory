@@ -3,7 +3,7 @@ import {
   EventCallbackInterface,
   EventPropTypeInterface,
   StringOrNumberOrCallback,
-} from "victory-core";
+} from "victory-core-custom";
 
 export type VictorySharedEventsProps = {
   children?: React.ReactElement | React.ReactElement[];

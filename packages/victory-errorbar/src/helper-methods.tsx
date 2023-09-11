@@ -6,7 +6,7 @@ import {
   Domain,
   Data,
   Collection,
-} from "victory-core";
+} from "victory-core-custom";
 
 const getErrors = (props, datum, axis) => {
   /**

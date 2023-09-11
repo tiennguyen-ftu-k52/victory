@@ -1,5 +1,5 @@
 import * as React from "react";
-import { VictoryContainerProps } from "victory-core";
+import { VictoryContainerProps } from "victory-core-custom";
 
 interface PointsInterface {
   childName?: string | string[];

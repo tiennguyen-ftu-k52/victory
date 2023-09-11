@@ -1,11 +1,11 @@
 /* eslint-disable no-magic-numbers */
 import React from "react";
 
-import { VictoryAxis } from "victory-axis";
-import { VictoryBoxPlot } from "victory-box-plot";
-import { VictoryChart } from "victory-chart";
-import { VictoryPolarAxis } from "victory-polar-axis";
-import { Arc, LineSegment, Whisker } from "victory-core";
+import { VictoryAxis } from "victory-axis-custom";
+import { VictoryBoxPlot } from "victory-box-plot-custom";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryPolarAxis } from "victory-polar-axis-custom";
+import { Arc, LineSegment, Whisker } from "victory-core-custom";
 import { range, random } from "lodash";
 
 interface PrimitivesDemoState {

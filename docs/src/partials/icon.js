@@ -9,7 +9,7 @@ import IconBack from "../../static/icon-back.svg";
 import IconBarrier from "../../static/icon-barrier.svg";
 
 // Q: Can these icons get added to the links generated in READMEs?
-// https://github.com/FormidableLabs/victory-docs/issues/7
+// https://github.com/tiennguyen-ftu-k52/victory-docs/issues/7
 
 class Icon extends React.Component {
   getStyles() {

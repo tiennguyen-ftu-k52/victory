@@ -1,4 +1,4 @@
-import { Selection } from "victory-core";
+import { Selection } from "victory-core-custom";
 import * as d3Scale from "victory-vendor/d3-scale";
 
 describe("helpers/selection", () => {

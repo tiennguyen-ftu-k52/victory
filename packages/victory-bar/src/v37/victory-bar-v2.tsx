@@ -1,6 +1,6 @@
 /* eslint-disable react/no-multi-comp */
 import * as React from "react";
-import { Datum, NumberOrCallback } from "victory-core";
+import { Datum, NumberOrCallback } from "victory-core-custom";
 import {
   useData,
   useDomain,

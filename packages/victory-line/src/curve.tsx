@@ -11,7 +11,7 @@ import {
   StringOrCallback,
   NumberOrCallback,
   VictoryCommonPrimitiveProps,
-} from "victory-core";
+} from "victory-core-custom";
 
 const evaluateProps = (props) => {
   /**

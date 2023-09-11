@@ -1,8 +1,8 @@
 import * as React from "react";
 import { render, fireEvent, screen } from "@testing-library/react";
 import { range } from "lodash";
-import { VictoryChart } from "victory-chart";
-import { Bar, VictoryBar } from "victory-bar";
+import { VictoryChart } from "victory-chart-custom";
+import { Bar, VictoryBar } from "victory-bar-custom";
 import { isBar, getBarHeight } from "../../../../test/helpers";
 
 describe("components/victory-bar", () => {
@@ -10,13 +10,13 @@ describe("components/victory-bar", () => {
     it("attaches safe user props to the container component", () => {
       render(
         <VictoryBar
-          data-testid="victory-bar"
+          data-testid="victory-bar-custom"
           aria-label="Chart"
           unsafe-prop="test"
         />,
       );
 
-      const container = screen.getByTestId("victory-bar");
+      const container = screen.getByTestId("victory-bar-custom");
       expect(screen.getByLabelText("Chart")).toBeDefined();
       expect(container).not.toHaveAttribute("unsafe-prop");
       expect(container.tagName).toEqual("svg");
@@ -25,14 +25,14 @@ describe("components/victory-bar", () => {
     it("attaches safe user props to the group component if the component is rendered inside a VictoryChart", () => {
       render(
         <VictoryBar
-          data-testid="victory-bar"
+          data-testid="victory-bar-custom"
           aria-label="Chart"
           unsafe-prop="test"
         />,
         { wrapper: VictoryChart },
       );
 
-      const container = screen.getByTestId("victory-bar");
+      const container = screen.getByTestId("victory-bar-custom");
       expect(screen.getByLabelText("Chart")).toBeDefined();
       expect(container).not.toHaveAttribute("unsafe-prop");
       expect(container.tagName).toEqual("g");

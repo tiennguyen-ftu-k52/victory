@@ -19,7 +19,7 @@ import {
   VictoryStack,
   VictoryTooltip,
   VictoryVoronoi,
-} from "victory-native";
+} from "victory-native-custom";
 import { render } from "@testing-library/react-native";
 
 const components = [

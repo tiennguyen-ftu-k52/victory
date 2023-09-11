@@ -11,7 +11,7 @@ import {
   addEvents,
   Arc,
   Axis,
-} from "victory-core";
+} from "victory-core-custom";
 import { getScale, getStyles, getBaseProps } from "./helper-methods";
 
 const fallbackProps = {

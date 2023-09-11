@@ -2,14 +2,14 @@
 /* eslint-disable react/no-multi-comp*/
 import { fromJS } from "immutable";
 import React from "react";
-import { VictoryBar } from "victory-bar";
-import { CanvasBar, CanvasGroup } from "victory-canvas";
-import { VictoryChart } from "victory-chart";
-import { VictoryLabel, VictoryTheme } from "victory-core";
-import { VictoryGroup } from "victory-group";
-import { VictoryPolarAxis } from "victory-polar-axis";
-import { VictoryStack } from "victory-stack";
-import { VictoryTooltip } from "victory-tooltip";
+import { VictoryBar } from "victory-bar-custom";
+import { CanvasBar, CanvasGroup } from "victory-canvas-custom";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryLabel, VictoryTheme } from "victory-core-custom";
+import { VictoryGroup } from "victory-group-custom";
+import { VictoryPolarAxis } from "victory-polar-axis-custom";
+import { VictoryStack } from "victory-stack-custom";
+import { VictoryTooltip } from "victory-tooltip-custom";
 import { getData, getDataWithBaseline, getMixedData } from "./data";
 
 const containerStyle = {

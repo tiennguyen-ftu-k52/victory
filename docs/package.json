@@ -7,12 +7,12 @@
   "main": "static.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FormidableLabs/victory-docs.git"
+    "url": "git+https://github.com/tiennguyen-ftu-k52/victory-docs.git"
   },
   "bugs": {
-    "url": "https://github.com/FormidableLabs/victory-docs/issues"
+    "url": "https://github.com/tiennguyen-ftu-k52/victory-docs/issues"
   },
-  "homepage": "https://github.com/FormidableLabs/victory-docs#readme",
+  "homepage": "https://github.com/tiennguyen-ftu-k52/victory-docs#readme",
   "dependencies": {
     "@d3fc/d3fc-discontinuous-scale": "^4.0.2",
     "@juggle/resize-observer": "^3.0.2",
@@ -50,7 +50,7 @@
     "styled-components": "^5.1.0",
     "styled-normalize": "^8.0.6",
     "unist-util-visit": "^1.4.0",
-    "victory": "^36.4.0"
+    "victory-custom": "^36.4.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -74,7 +74,7 @@
   },
   "keywords": [
     "react-static",
-    "victory",
+    "victory-custom",
     "charting",
     "docs"
   ],

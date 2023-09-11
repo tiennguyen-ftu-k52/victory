@@ -1,5 +1,5 @@
 {
-  "name": "victory",
+  "name": "victory-custom",
   "version": "36.6.12",
   "description": "Data viz for React",
   "keywords": [
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/FormidableLabs/victory"
+    "url": "https://github.com/tiennguyen-ftu-k52/victory"
   },
   "homepage": "https://formidable.com/open-source/victory",
   "source": "src/index.js",
@@ -21,39 +21,39 @@
   "author": "Formidable",
   "license": "MIT",
   "dependencies": {
-    "victory-area": "^36.6.12",
-    "victory-axis": "^36.6.12",
-    "victory-bar": "^36.6.12",
-    "victory-box-plot": "^36.6.12",
-    "victory-brush-container": "^36.6.12",
-    "victory-brush-line": "^36.6.12",
-    "victory-candlestick": "^36.6.12",
-    "victory-canvas": "^36.6.12",
-    "victory-chart": "^36.6.12",
-    "victory-core": "^36.6.12",
-    "victory-create-container": "^36.6.12",
-    "victory-cursor-container": "^36.6.12",
-    "victory-errorbar": "^36.6.12",
-    "victory-group": "^36.6.12",
-    "victory-histogram": "^36.6.12",
-    "victory-legend": "^36.6.12",
-    "victory-line": "^36.6.12",
-    "victory-pie": "^36.6.12",
-    "victory-polar-axis": "^36.6.12",
-    "victory-scatter": "^36.6.12",
-    "victory-selection-container": "^36.6.12",
-    "victory-shared-events": "^36.6.12",
-    "victory-stack": "^36.6.12",
-    "victory-tooltip": "^36.6.12",
-    "victory-voronoi": "^36.6.12",
-    "victory-voronoi-container": "^36.6.12",
-    "victory-zoom-container": "^36.6.12"
+    "victory-area-custom": "^36.6.12",
+    "victory-axis-custom": "^36.6.12",
+    "victory-bar-custom": "^36.6.12",
+    "victory-box-plot-custom": "^36.6.12",
+    "victory-brush-container-custom": "^36.6.12",
+    "victory-brush-line-custom": "^36.6.12",
+    "victory-candlestick-custom": "^36.6.12",
+    "victory-canvas-custom": "^36.6.12",
+    "victory-chart-custom": "^36.6.12",
+    "victory-core-custom": "^36.6.12",
+    "victory-create-container-custom": "^36.6.12",
+    "victory-cursor-container-custom": "^36.6.12",
+    "victory-errorbar-custom": "^36.6.12",
+    "victory-group-custom": "^36.6.12",
+    "victory-histogram-custom": "^36.6.12",
+    "victory-legend-custom": "^36.6.12",
+    "victory-line-custom": "^36.6.12",
+    "victory-pie-custom": "^36.6.12",
+    "victory-polar-axis-custom": "^36.6.12",
+    "victory-scatter-custom": "^36.6.12",
+    "victory-selection-container-custom": "^36.6.12",
+    "victory-shared-events-custom": "^36.6.12",
+    "victory-stack-custom": "^36.6.12",
+    "victory-tooltip-custom": "^36.6.12",
+    "victory-voronoi-custom": "^36.6.12",
+    "victory-voronoi-container-custom": "^36.6.12",
+    "victory-zoom-container-custom": "^36.6.12"
   },
   "peerDependencies": {
     "react": ">=16.6.0"
   },
   "devDependencies": {
-    "victory": "*"
+    "victory-custom": "*"
   },
   "publishConfig": {
     "provenance": true

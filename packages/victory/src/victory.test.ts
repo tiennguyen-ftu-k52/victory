@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import * as Victory from "victory";
+import * as Victory from "victory-custom";
 import {
   Arc,
   ArcProps,
@@ -146,15 +146,15 @@ import {
   useCanvasContext,
   voronoiContainerMixin,
   zoomContainerMixin,
-} from "victory";
+} from "victory-custom";
 
-describe("victory", () => {
+describe("victory-custom", () => {
   it("ensure it has named exports", () => {
     expect(Area).toBeInstanceOf(Function);
   });
   it("ensure all components have valid types", () => {
     /*
-     * See https://github.com/FormidableLabs/victory/issues/2411
+     * See https://github.com/tiennguyen-ftu-k52/victory/issues/2411
      * It's easy for some of our Components to accidentally get typed as 'any'.
      * This seems to be due to our use of mixins, especially `addEvents`.
      *

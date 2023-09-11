@@ -2,15 +2,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { round } from "lodash";
-import { VictoryChart } from "victory-chart";
-import { VictoryStack } from "victory-stack";
-import { VictoryGroup } from "victory-group";
-import { createContainer } from "victory-create-container";
-import { VictoryBar } from "victory-bar";
-import { VictoryLine } from "victory-line";
-import { VictoryScatter } from "victory-scatter";
-import { VictoryTooltip } from "victory-tooltip";
-import { VictoryLegend } from "victory-legend";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryStack } from "victory-stack-custom";
+import { VictoryGroup } from "victory-group-custom";
+import { createContainer } from "victory-create-container-custom";
+import { VictoryBar } from "victory-bar-custom";
+import { VictoryLine } from "victory-line-custom";
+import { VictoryScatter } from "victory-scatter-custom";
+import { VictoryTooltip } from "victory-tooltip-custom";
+import { VictoryLegend } from "victory-legend-custom";
 
 const Charts = ({ behaviors }) => {
   // eslint-disable-line react/prop-types

@@ -1,6 +1,6 @@
 import React from "react";
-import { VictoryLabel, Border } from "victory-core";
-import { VictoryLegend } from "victory-legend";
+import { VictoryLabel, Border } from "victory-core-custom";
+import { VictoryLegend } from "victory-legend-custom";
 
 const containerStyle: React.CSSProperties = {
   display: "flex",

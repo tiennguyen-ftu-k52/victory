@@ -1,6 +1,12 @@
 import { assign, isNil } from "lodash";
-import { Helpers, LabelHelpers, Data, Domain, Scale } from "victory-core";
-import { getBarPosition } from "victory-bar";
+import {
+  Helpers,
+  LabelHelpers,
+  Data,
+  Domain,
+  Scale,
+} from "victory-core-custom";
+import { getBarPosition } from "victory-bar-custom";
 import isEqual from "react-fast-compare";
 import * as d3Array from "victory-vendor/d3-array";
 import * as d3Scale from "victory-vendor/d3-scale";

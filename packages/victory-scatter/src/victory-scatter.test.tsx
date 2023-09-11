@@ -1,8 +1,8 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { range } from "lodash";
 import React from "react";
-import { Point, VictoryLabel } from "victory-core";
-import { VictoryScatter } from "victory-scatter";
+import { Point, VictoryLabel } from "victory-core-custom";
+import { VictoryScatter } from "victory-scatter-custom";
 import {
   convertSvgCoordinatesToCartesian,
   getSvgPointCoordinates,
@@ -14,13 +14,13 @@ describe("components/victory-scatter", () => {
     it("accepts safe user props", () => {
       render(
         <VictoryScatter
-          data-testid="victory-scatter"
+          data-testid="victory-scatter-custom"
           aria-label="Chart"
           unsafe-prop="test"
         />,
       );
 
-      const container = screen.getByTestId("victory-scatter");
+      const container = screen.getByTestId("victory-scatter-custom");
       expect(screen.getByLabelText("Chart")).toBeDefined();
       expect(container).not.toHaveAttribute("unsafe-prop");
       expect(container.nodeName).toBe("svg");

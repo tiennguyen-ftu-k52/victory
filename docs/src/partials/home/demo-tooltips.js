@@ -6,7 +6,7 @@ import {
   VictoryChart,
   VictoryLine,
   VictoryAxis,
-} from "victory";
+} from "victory-custom";
 
 import importedTheme from "../../styles/theme";
 

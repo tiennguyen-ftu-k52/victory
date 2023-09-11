@@ -24,7 +24,7 @@ import {
   VictoryStyleObject,
   VictoryLabelStyleObject,
   EventsMixinClass,
-} from "victory-core";
+} from "victory-core-custom";
 import { getDomain, getData, getBaseProps } from "./helper-methods";
 
 const fallbackProps = {

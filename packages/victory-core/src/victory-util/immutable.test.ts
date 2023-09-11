@@ -1,4 +1,4 @@
-import { Immutable } from "victory-core";
+import { Immutable } from "victory-core-custom";
 
 describe("victory-util/immutable", () => {
   it("should have valid type guards", () => {

@@ -1,8 +1,8 @@
 import React from "react";
 import { range } from "lodash";
 import { render, screen, fireEvent } from "@testing-library/react";
-import { Style } from "victory-core";
-import { Slice, VictoryPie } from "victory-pie";
+import { Style } from "victory-core-custom";
+import { Slice, VictoryPie } from "victory-pie-custom";
 import {
   isCircularSector,
   getSvgCoordinatesAngleFromCartesianYAxis,
@@ -28,9 +28,11 @@ describe("components/victory-pie", () => {
 
   describe("default component rendering", () => {
     it("accepts user props", () => {
-      render(<VictoryPie data-testid="victory-pie" aria-label="Chart" />);
+      render(
+        <VictoryPie data-testid="victory-pie-custom" aria-label="Chart" />,
+      );
 
-      const svgNode = screen.getByTestId("victory-pie");
+      const svgNode = screen.getByTestId("victory-pie-custom");
 
       expect(svgNode).toHaveAttribute("aria-label", "Chart");
     });

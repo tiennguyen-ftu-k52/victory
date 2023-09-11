@@ -9,7 +9,7 @@ module.exports = {
   rootDir: ROOT,
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
   testPathIgnorePatterns: [
-    "victory-native",
+    "victory-native-custom",
     "node_modules",
     "config",
     "/es/",

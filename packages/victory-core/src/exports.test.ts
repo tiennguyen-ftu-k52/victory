@@ -1,4 +1,4 @@
-import * as VictoryCore from "victory-core";
+import * as VictoryCore from "victory-core-custom";
 
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable import/named */ // We don't need eslint to validate imports; TypeScript handles that for us.
@@ -137,10 +137,10 @@ import {
   WhiskerProps,
   Wrapper,
   addEvents,
-} from "victory-core";
+} from "victory-core-custom";
 import { pick } from "lodash";
 
-describe("victory-core", () => {
+describe("victory-core-custom", () => {
   it("exports addEvents", () => {
     // This test exists to ensure we don't have an "unused import" error
     expect(addEvents).toBeInstanceOf(Function);

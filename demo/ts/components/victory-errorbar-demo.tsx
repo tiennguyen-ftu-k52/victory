@@ -1,9 +1,9 @@
 import React from "react";
 import { merge, random, range } from "lodash";
-import { VictoryChart } from "victory-chart";
-import { VictoryScatter } from "victory-scatter";
-import { ErrorType, VictoryErrorBar } from "victory-errorbar";
-import { VictoryContainer, VictoryTheme } from "victory-core";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryScatter } from "victory-scatter-custom";
+import { ErrorType, VictoryErrorBar } from "victory-errorbar-custom";
+import { VictoryContainer, VictoryTheme } from "victory-core-custom";
 
 const basicData = [
   { x: 1, y: 1, errorX: [1, 0.5], errorY: 0.1 },

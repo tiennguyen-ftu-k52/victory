@@ -13,7 +13,7 @@ $ npm install victory --save
 ```js
 import React, { Component } from "react";
 import { render } from "react-dom";
-import { VictoryPie } from "victory";
+import { VictoryPie } from "victory-custom";
 
 class PieChart extends Component {
   render() {
@@ -38,7 +38,7 @@ Projects using Victory should also depend on [React][] and [prop-types][].
 
 ## Victory Native
 
-Want to use `Victory` with React Native? Check out [victory-native](https://github.com/FormidableLabs/victory-native)
+Want to use `Victory` with React Native? Check out [victory-native](https://github.com/tiennguyen-ftu-k52/victory-native)
 Victory Native shares most of its code with Victory, and has a nearly identical api!
 
 ## [Contributing](CONTRIBUTING.md)

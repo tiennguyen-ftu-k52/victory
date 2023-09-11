@@ -1,7 +1,7 @@
 import { getChildComponents } from "victory-chart/lib/helper-methods";
 import React from "react";
-import { VictoryAxis } from "victory-axis";
-import { VictoryLine } from "victory-line";
+import { VictoryAxis } from "victory-axis-custom";
+import { VictoryLine } from "victory-line-custom";
 
 describe("victory-chart/helpers-methods", () => {
   describe("getChildComponents", () => {

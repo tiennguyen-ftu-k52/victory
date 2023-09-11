@@ -19,7 +19,7 @@ import {
   VictoryMultiLabelableProps,
   VictoryStyleInterface,
   EventsMixinClass,
-} from "victory-core";
+} from "victory-core-custom";
 import { ErrorBar } from "./error-bar";
 import { getBaseProps, getDomain, getData } from "./helper-methods";
 

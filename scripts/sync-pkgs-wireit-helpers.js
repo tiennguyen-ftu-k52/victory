@@ -6,7 +6,8 @@ function concat(...arrays) {
 }
 
 function generateWireitConfig(pkg, rootPkg) {
-  const isVictoryPackage = (p) => p.startsWith("victory") && p !== pkg.name;
+  const isVictoryPackage = (p) =>
+    p.startsWith("victory-custom") && p !== pkg.name;
   const deps = Object.keys(pkg.dependencies || {}).filter(isVictoryPackage);
   const devDeps = Object.keys(pkg.devDependencies || {}).filter(
     isVictoryPackage,
@@ -18,7 +19,9 @@ function generateWireitConfig(pkg, rootPkg) {
   const lintDeps = [
     // victory-vendor has nested path accesses, which means it needs
     // to be built for lint to not error on it if a dependency.
-    ...(deps.includes("victory-vendor") ? ["../victory-vendor:build"] : []),
+    ...(deps.includes("victory-vendor-custom")
+      ? ["../victory-vendor:build"]
+      : []),
     ...concat(deps, devDeps, rootDeps).map((dep) => `../${dep}:types:create`),
   ];
 

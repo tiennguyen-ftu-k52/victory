@@ -8,7 +8,7 @@ import {
   VictoryLabel,
   VictoryTheme,
   VictoryPortal,
-} from "victory-core";
+} from "victory-core-custom";
 import Flyout from "./flyout";
 import { assign, defaults, uniqueId, isPlainObject, orderBy } from "lodash";
 

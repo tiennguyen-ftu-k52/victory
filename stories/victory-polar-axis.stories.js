@@ -4,9 +4,9 @@
 import React from "react";
 import { range } from "lodash";
 import seedrandom from "seedrandom";
-import { VictoryPolarAxis } from "victory-polar-axis";
-import { VictoryChart } from "victory-chart";
-import { VictoryTheme } from "victory-core";
+import { VictoryPolarAxis } from "victory-polar-axis-custom";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryTheme } from "victory-core-custom";
 
 const containerStyle = {
   display: "flex",

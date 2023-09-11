@@ -2,7 +2,7 @@
 import { assign, defaults, isFunction, isPlainObject, isNil } from "lodash";
 import * as d3Shape from "victory-vendor/d3-shape";
 
-import { Helpers, Data, Style } from "victory-core";
+import { Helpers, Data, Style } from "victory-core-custom";
 
 const checkForValidText = (text) => {
   if (text === undefined || text === null || isFunction(text)) {

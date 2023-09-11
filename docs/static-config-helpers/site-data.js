@@ -10,7 +10,7 @@ export default {
   projectLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/FormidableLabs/victory",
+      url: "https://github.com/tiennguyen-ftu-k52/victory",
     },
   ],
   copyright: `Copyright © ${new Date().getFullYear()} Formidable`, // Copyright string for the footer of the website and RSS feed.

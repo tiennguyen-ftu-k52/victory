@@ -1,6 +1,6 @@
 import React from "react";
-import { VictoryAxis } from "victory-axis";
-import { VictoryChart } from "victory-chart";
+import { VictoryAxis } from "victory-axis-custom";
+import { VictoryChart } from "victory-chart-custom";
 import { render, screen } from "@testing-library/react";
 
 describe("components/victory-axis", () => {

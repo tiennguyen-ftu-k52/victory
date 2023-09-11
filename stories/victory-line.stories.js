@@ -1,11 +1,11 @@
 /* eslint-disable no-magic-numbers*/
 /* eslint-disable react/no-multi-comp*/
 import React from "react";
-import { VictoryStack } from "victory-stack";
-import { VictoryLine, Curve } from "victory-line";
-import { VictoryChart } from "victory-chart";
-import { VictoryTooltip } from "victory-tooltip";
-import { VictoryTheme, VictoryLabel } from "victory-core";
+import { VictoryStack } from "victory-stack-custom";
+import { VictoryLine, Curve } from "victory-line-custom";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryTooltip } from "victory-tooltip-custom";
+import { VictoryTheme, VictoryLabel } from "victory-core-custom";
 import { getData, getMixedData, getTimeData, getLogData } from "./data";
 import { fromJS } from "immutable";
 import styled from "styled-components";

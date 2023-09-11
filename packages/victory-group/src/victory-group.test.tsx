@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import React from "react";
-import { VictoryBar } from "victory-bar";
-import { VictoryGroup } from "victory-group";
+import { VictoryBar } from "victory-bar-custom";
+import { VictoryGroup } from "victory-group-custom";
 
 describe("components/victory-group", () => {
   it("has a static role", () => {
@@ -35,13 +35,13 @@ describe("components/victory-group", () => {
 
     it("accepts user props", () => {
       render(
-        <VictoryGroup data-testid="victory-group" aria-label="Group">
+        <VictoryGroup data-testid="victory-group-custom" aria-label="Group">
           <VictoryBar />
           <VictoryBar />
         </VictoryGroup>,
       );
 
-      expect(screen.getByTestId("victory-group")).toBeDefined();
+      expect(screen.getByTestId("victory-group-custom")).toBeDefined();
       expect(screen.getByLabelText("Group")).toBeDefined();
     });
   });

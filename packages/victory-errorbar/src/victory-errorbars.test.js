@@ -2,7 +2,7 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import { fromJS } from "immutable";
 import { range } from "lodash";
 import React from "react";
-import { ErrorBar, VictoryErrorBar } from "victory-errorbar";
+import { ErrorBar, VictoryErrorBar } from "victory-errorbar-custom";
 import * as d3Scale from "victory-vendor/d3-scale";
 
 const defaultProps = {
@@ -26,10 +26,13 @@ describe("components/victory-errorbar", () => {
   describe("default component rendering", () => {
     it("accepts user props", () => {
       render(
-        <VictoryErrorBar data-testid="victory-errorbar" aria-label="Chart" />,
+        <VictoryErrorBar
+          data-testid="victory-errorbar-custom"
+          aria-label="Chart"
+        />,
       );
 
-      expect(screen.getByTestId("victory-errorbar")).toBeDefined();
+      expect(screen.getByTestId("victory-errorbar-custom")).toBeDefined();
       expect(screen.getByLabelText("Chart")).toBeDefined();
     });
 

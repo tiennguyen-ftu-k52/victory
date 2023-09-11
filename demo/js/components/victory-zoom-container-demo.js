@@ -2,22 +2,22 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { range, merge, random, minBy, maxBy, last } from "lodash";
-import { VictoryChart } from "victory-chart";
-import { VictoryStack } from "victory-stack";
-import { VictoryGroup } from "victory-group";
-import { VictoryAxis } from "victory-axis";
-import { VictoryArea } from "victory-area";
-import { VictoryBar } from "victory-bar";
-import { VictoryLine } from "victory-line";
-import { VictoryScatter } from "victory-scatter";
-import { VictoryZoomContainer } from "victory-zoom-container";
-import { VictoryTooltip } from "victory-tooltip";
-import { VictoryLegend } from "victory-legend";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryStack } from "victory-stack-custom";
+import { VictoryGroup } from "victory-group-custom";
+import { VictoryAxis } from "victory-axis-custom";
+import { VictoryArea } from "victory-area-custom";
+import { VictoryBar } from "victory-bar-custom";
+import { VictoryLine } from "victory-line-custom";
+import { VictoryScatter } from "victory-scatter-custom";
+import { VictoryZoomContainer } from "victory-zoom-container-custom";
+import { VictoryTooltip } from "victory-tooltip-custom";
+import { VictoryLegend } from "victory-legend-custom";
 import {
   VictoryTheme,
   VictoryClipContainer,
   VictoryPortal,
-} from "victory-core";
+} from "victory-core-custom";
 
 const allData = range(0, 10, 0.001).map((x) => ({
   x,

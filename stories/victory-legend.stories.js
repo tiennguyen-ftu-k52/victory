@@ -1,9 +1,9 @@
 /* eslint-disable no-magic-numbers*/
 /* eslint-disable react/no-multi-comp*/
 import React from "react";
-import { VictoryAxis } from "victory-axis";
-import { VictoryChart } from "victory-chart";
-import { VictoryLegend } from "victory-legend";
+import { VictoryAxis } from "victory-axis-custom";
+import { VictoryChart } from "victory-chart-custom";
+import { VictoryLegend } from "victory-legend-custom";
 import { range, isFunction } from "lodash";
 
 const containerStyle = {

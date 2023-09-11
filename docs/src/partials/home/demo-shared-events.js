@@ -7,7 +7,7 @@ import {
   VictoryPie,
   VictorySharedEvents,
   VictoryLabel,
-} from "victory";
+} from "victory-custom";
 
 class SharedEvents extends React.Component {
   getStyles() {

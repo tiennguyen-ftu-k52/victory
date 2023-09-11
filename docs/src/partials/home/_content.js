@@ -27,7 +27,7 @@ const content = {
       },
       {
         text: "GITHUB",
-        location: "https://github.com/FormidableLabs/victory",
+        location: "https://github.com/tiennguyen-ftu-k52/victory",
         external: true,
       },
       {

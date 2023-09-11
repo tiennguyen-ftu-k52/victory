@@ -9,7 +9,7 @@ import {
   Path,
   Circle,
   UserProps,
-} from "victory-core";
+} from "victory-core-custom";
 
 const getVoronoiPath = (props) => {
   const { polygon } = props;

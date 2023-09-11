@@ -1,4 +1,4 @@
-import { Collection, Selection, Data, Helpers } from "victory-core";
+import { Collection, Selection, Data, Helpers } from "victory-core-custom";
 import {
   assign,
   throttle,

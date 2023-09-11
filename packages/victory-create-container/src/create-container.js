@@ -8,12 +8,12 @@ import {
   isFunction,
   keys,
 } from "lodash";
-import { VictoryContainer, Log } from "victory-core";
-import { voronoiContainerMixin } from "victory-voronoi-container";
-import { zoomContainerMixin } from "victory-zoom-container";
-import { selectionContainerMixin } from "victory-selection-container";
-import { brushContainerMixin } from "victory-brush-container";
-import { cursorContainerMixin } from "victory-cursor-container";
+import { VictoryContainer, Log } from "victory-core-custom";
+import { voronoiContainerMixin } from "victory-voronoi-container-custom";
+import { zoomContainerMixin } from "victory-zoom-container-custom";
+import { selectionContainerMixin } from "victory-selection-container-custom";
+import { brushContainerMixin } from "victory-brush-container-custom";
+import { cursorContainerMixin } from "victory-cursor-container-custom";
 
 const ensureArray = (thing) => {
   if (!thing) {
